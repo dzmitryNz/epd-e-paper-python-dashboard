@@ -23,9 +23,43 @@
         "epdColourYellow": "YELLOW"
     },
     "fonts": {
+        "font15": ["Font.ttc", 15],
         "font18": ["Font.ttc", 18],
         "font24": ["Font.ttc", 24],
         "font40": ["Font.ttc", 40]
+    },
+    "layout": {
+        "lineHeight": 22,
+        "startX": 5,
+        "iconsPath": "./icons/"
+    },
+    "sensors": {
+        "showSensorNames": ["dsw1", "dsw2", "bmpt", "bmpp"],
+        "sensorNames": {
+            "dsw1": "Out",
+            "dsw2": "Bal",
+            "bmpt": "BK",
+            "bmpp": "Prs"
+        },
+        "sensorUnits": {
+            "dsw1": "°C",
+            "dsw2": "°C",
+            "bmpt": "°C",
+            "bmpp": "hPa"
+        },
+        "valuePositions": {
+            "dsw1": 80,
+            "dsw2": 70,
+            "bmpt": 120,
+            "bmpp": 95
+        },
+        "weatherPositions": {
+            "dsw1": 120,
+            "humidity": 80,
+            "wind_speed": 110,
+            "pressure": 170,
+            "description": 120
+        }
     },
     "services": {
         "kucoin": {
@@ -123,30 +157,94 @@
     "dashboard": {
         "lines": [
             {
-                "startX": 5,
+                "type": "datetime",
                 "startY": 0,
+                "format": "%a - %d %b - %H:%M",
+                "font": "font24",
+                "colour": "RED"
+            },
+            {
+                "type": "sun_times",
+                "startY": 25,
+                "font": "font18",
+                "colour": "BLACK",
+                "fallbackText": "Sun times: N/A",
+                "fallbackColour": "RED"
+            },
+            {
+                "type": "weather_sensors",
+                "startY": 47,
                 "items": [
                     {
-                        "key": "temp",
-                        "name": "Temperature",
-                        "unit": "°C",
-                        "unitAfter": false,
-                        "font": "font18",
-                        "colour": "RED",
-                        "from": 80,
-                        "after": 10
-                    },
-                    {
-                        "key": "feels_like",
-                        "name": "like",
-                        "unit": "",
-                        "unitAfter": false,
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "from": 100,
-                        "after": 10
+                        "label": "Out, °C:",
+                        "sensorKey": "dsw1",
+                        "valueFont": "font24",
+                        "valueColour": "RED",
+                        "weatherText": " feels {feels_like} - {temp}",
+                        "weatherFont": "font18",
+                        "weatherColour": "BLACK"
                     }
                 ]
+            },
+            {
+                "type": "weather_details",
+                "startY": 69,
+                "items": [
+                    {
+                        "label": "Hum, %:",
+                        "key": "humidity",
+                        "font": "font18",
+                        "colour": "YELLOW"
+                    },
+                    {
+                        "label": "Wind, ms: {wind_speed}  {wind_direction}",
+                        "font": "font18",
+                        "colour": "BLACK"
+                    }
+                ]
+            },
+            {
+                "type": "pressure_clouds",
+                "startY": 91,
+                "items": [
+                    {
+                        "label": "Press, hPa:",
+                        "sensorKey": "bmpp",
+                        "valueFont": "font24",
+                        "valueColour": "RED"
+                    },
+                    {
+                        "label": "Вобл, %: {clouds}",
+                        "font": "font18",
+                        "colour": "BLACK"
+                    }
+                ]
+            },
+            {
+                "type": "balcony_bk_temps",
+                "startY": 113,
+                "items": [
+                    {
+                        "label": "Bal, °C:",
+                        "sensorKey": "dsw2",
+                        "font": "font18",
+                        "colour": "RED"
+                    },
+                    {
+                        "label": "BK, °C:",
+                        "sensorKey": "bmpt",
+                        "font": "font18",
+                        "colour": "RED"
+                    }
+                ]
+            },
+            {
+                "type": "crypto_prices",
+                "startY": 135,
+                "font": "font18",
+                "pairs": ["BTC-USDC", "LTC-USDC", "LINK-USDC"],
+                "fallbackText": "Crypto: Offline",
+                "fallbackColour": "RED"
             }
         ]
     }
