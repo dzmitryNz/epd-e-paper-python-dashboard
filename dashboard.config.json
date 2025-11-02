@@ -3,7 +3,7 @@
         "epdDisplayType": "epd2in15g",
         "epdDisplayWidth": 296,
         "epdDisplayHeight": 160,
-        "epdDisplayRotation": 0,
+        "epdDisplayRotation": 90,
         "epdDisplayInvert": false,
         "epdDisplayBrightness": 100,
         "epdDisplayContrast": 100,

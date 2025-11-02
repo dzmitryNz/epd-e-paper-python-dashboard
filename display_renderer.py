@@ -116,10 +116,10 @@ class DisplayRenderer:
     
     def render(self, data: Dict[str, Any], data_ages: Dict[str, Dict[str, bool]]) -> Image.Image:
         """Renders all data on image"""
-        width = self.config['display'].get('epdDisplayWidth', 296)
-        height = self.config['display'].get('epdDisplayHeight', 160)
+        width = self.epd.width
+        height = self.epd.height
         
-        image = Image.new('RGB', (height, width), self.epd.WHITE)
+        image = Image.new('RGB', (width, height), self.epd.WHITE)
         draw = ImageDraw.Draw(image)
         
         y_pos = 0
