@@ -43,7 +43,7 @@ def fetch_sensor_data(config: Dict[str, Any], service_key: str) -> Optional[Dict
     url = service_config.get('url', '')
     data_config = service_config.get('data', {})
     response_type = service_config.get('responseType', 'text')
-    
+    logging.info(f"Fetching sensor data from {url}")
     if not url:
         logging.error(f"URL for {service_key} not set in configuration")
         return None
@@ -51,16 +51,19 @@ def fetch_sensor_data(config: Dict[str, Any], service_key: str) -> Optional[Dict
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
-        
+        logging.info(f"Getted")
         sensor_data = {}
         if response_type == 'text':
             raw_text = response.text.strip()
+            logging.info(f"Raw text: {raw_text}")
             parsed = parse_sensor_text(raw_text)
-            
+            logging.info(f"Parsed: {parsed}")
             for key, value_config in data_config.items():
                 path = value_config.get('path', key)
+                logging.info(f"Path: {path}")
                 if path in parsed:
                     raw_value = parsed[path]
+                    logging.info(f"Raw value: {raw_value}")
                     sensor_data[key] = format_value(raw_value, value_config)
         elif response_type == 'json':
             raw_json = response.json()
