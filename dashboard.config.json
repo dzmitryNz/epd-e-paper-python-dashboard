@@ -2,7 +2,7 @@
     "display": {
         "epdDisplayType": "epd2in15g",
         "epdDisplayWidth": 200,
-        "epdDisplayHeight": 200,
+        "epdDisplayHeight": 122,
         "epdDisplayRotation": 0,
         "epdDisplayInvert": false,
         "epdDisplayBrightness": 100,
@@ -12,15 +12,22 @@
         "epdDisplayGamma": 100,
         "epdColourMode": "RGB",
         "colours": [
-            "epdColourBlack",
-            "epdColourWhite",
-            "epdColourRed",
-            "epdColourYellow"
+            "WHITE",
+            "BLACK",
+            "RED",
+            "YELLOW"
         ],
+<<<<<<< Current (Your changes)
+=======
         "epdColourBlack": "BLACK",
         "epdColourWhite": "WHITE",
         "epdColourRed": "RED",
-        "epdColourYellow": "YELLOW"
+        "epdColourYellow": "YELLOW",
+<<<<<<< Current (Your changes)
+>>>>>>> Incoming (Background Agent changes)
+=======
+>>>>>>> Incoming (Background Agent changes)
+        "oldDataColour": "YELLOW"
     },
     "fonts": {
         "font15": [
@@ -83,7 +90,7 @@
             "params": {
                 "q": "Mogilev",
                 "lang": "be",
-                "appid": "${OPENWEATHERMAP_API_KEY}"
+                "appid": "env.OPENWEATHERMAP_API_KEY"
             },
             "refreshInterval": 600000,
             "data": {
@@ -129,10 +136,14 @@
                 "sunset": {
                     "path": "sys.sunset",
                     "type": "int"
+                },
+                "weather_icon": {
+                    "path": "weather[0].icon",
+                    "type": "string"
                 }
             }
         },
-        "sensors1": {
+        "wifiiot_sensors_1": {
             "url": "http://192.168.0.106/sensors",
             "responseType": "text",
             "refreshInterval": 600000,
@@ -149,7 +160,7 @@
                 }
             }
         },
-        "sensors2": {
+        "wifiiot_sensors_2": {
             "url": "http://192.168.0.100/sensors",
             "responseType": "text",
             "refreshInterval": 600000,
@@ -181,7 +192,16 @@
                         "font": "font24",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
+                    },
+                    {
+                        "type": "weather_icon",
+                        "prefix": "",
+                        "suffix": "",
+                        "font": "icons",
+                        "colour": "BLACK",
+                        "startY": 0,
+                        "beforeX": 0
                     }
                 ]
             },
@@ -198,7 +218,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "sunset",
@@ -208,7 +228,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "description",
@@ -217,7 +237,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             },
@@ -234,7 +254,7 @@
                         "font": "font24",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "feels_like",
@@ -243,7 +263,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "temp",
@@ -252,7 +272,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             },
@@ -268,7 +288,7 @@
                         "font": "font18",
                         "colour": "YELLOW",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "wind_speed",
@@ -277,7 +297,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "wind_direction",
@@ -286,7 +306,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             },
@@ -302,7 +322,7 @@
                         "font": "font24",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "clouds",
@@ -311,7 +331,7 @@
                         "font": "font18",
                         "colour": "BLACK",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             },
@@ -327,7 +347,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "bmpt",
@@ -336,7 +356,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             },
@@ -352,7 +372,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "LTC-USDC",
@@ -361,7 +381,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "LINK-USDC",
@@ -370,7 +390,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     },
                     {
                         "type": "SOL-USDC",
@@ -379,7 +399,7 @@
                         "font": "font18",
                         "colour": "RED",
                         "startY": 0,
-                        "afterX": 0
+                        "beforeX": 0
                     }
                 ]
             }
