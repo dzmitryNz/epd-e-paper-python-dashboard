@@ -7,8 +7,9 @@ import logging
 from PIL import Image, ImageDraw, ImageFont
 from typing import Dict, Any, Optional, Tuple
 
-picdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'pic')
-libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
+iconsdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'icons')
+fontsdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'fonts')
+libdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'lib')
 if os.path.exists(libdir):
     sys.path.append(libdir)
 
@@ -41,7 +42,7 @@ class DisplayRenderer:
         
         for font_name, font_config in fonts_config.items():
             font_file, font_size = font_config
-            font_path = os.path.join(picdir, font_file)
+            font_path = os.path.join(fontsdir, font_file)
             try:
                 fonts[font_name] = ImageFont.truetype(font_path, font_size)
             except Exception as e:
