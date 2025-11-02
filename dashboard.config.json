@@ -17,16 +17,10 @@
             "RED",
             "YELLOW"
         ],
-<<<<<<< Current (Your changes)
-=======
         "epdColourBlack": "BLACK",
         "epdColourWhite": "WHITE",
         "epdColourRed": "RED",
         "epdColourYellow": "YELLOW",
-<<<<<<< Current (Your changes)
->>>>>>> Incoming (Background Agent changes)
-=======
->>>>>>> Incoming (Background Agent changes)
         "oldDataColour": "YELLOW"
     },
     "fonts": {
