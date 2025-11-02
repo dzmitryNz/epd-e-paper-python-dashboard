@@ -1,8 +1,8 @@
 {
     "display": {
         "epdDisplayType": "epd2in15g",
-        "epdDisplayWidth": 200,
-        "epdDisplayHeight": 122,
+        "epdDisplayWidth": 296,
+        "epdDisplayHeight": 160,
         "epdDisplayRotation": 0,
         "epdDisplayInvert": false,
         "epdDisplayBrightness": 100,
