@@ -4,7 +4,7 @@ import sys
 import os
 import logging
 
-from config_loader import load_config, validate_config
+from config_loader import load_config, validate_config, load_env_file
 from data_loader import load_all_data
 from data_storage import save_data
 from display_renderer import DisplayRenderer
@@ -12,6 +12,7 @@ from display_renderer import DisplayRenderer
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def main():
+    load_env_file()
     try:
         config_path = 'dashboard.config.json'
         

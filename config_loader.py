@@ -5,6 +5,40 @@ import os
 import logging
 from typing import Dict, Any, Optional
 
+def load_env_file(env_path: str = '.env') -> bool:
+    """Loads environment variables from .env file"""
+    if not os.path.exists(env_path):
+        logging.debug(f".env file not found at {env_path}")
+        return False
+    
+    try:
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                
+                if '=' in line:
+                    key, value = line.split('=', 1)
+                    key = key.strip()
+                    value = value.strip()
+                    
+                    if value.startswith('"') and value.endswith('"'):
+                        value = value[1:-1]
+                    elif value.startswith("'") and value.endswith("'"):
+                        value = value[1:-1]
+                    
+                    os.environ[key] = value
+        
+        logging.info(f"Loaded environment variables from {env_path}")
+        return True
+    except IOError as e:
+        logging.warning(f"Failed to read .env file: {e}")
+        return False
+    except Exception as e:
+        logging.warning(f"Error parsing .env file: {e}")
+        return False
+
 def load_config(config_path: str = 'dashboard.config.json') -> Optional[Dict[str, Any]]:
     """Loads configuration from JSON file"""
     try:
