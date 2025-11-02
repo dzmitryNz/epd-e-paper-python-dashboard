@@ -1,0 +1,153 @@
+{
+    "display": {
+        "epdDisplayType": "epd2in15g",
+        "epdDisplayWidth": 200,
+        "epdDisplayHeight": 200,
+        "epdDisplayRotation": 0,
+        "epdDisplayInvert": false,
+        "epdDisplayBrightness": 100,
+        "epdDisplayContrast": 100,
+        "epdDisplaySaturation": 100,
+        "epdDisplayHue": 100,
+        "epdDisplayGamma": 100,
+        "epdColourMode": "RGB",
+        "colours": [
+            "epdColourBlack",
+            "epdColourWhite",
+            "epdColourRed",
+            "epdColourYellow"
+        ],
+        "epdColourBlack": "BLACK",
+        "epdColourWhite": "WHITE",
+        "epdColourRed": "RED",
+        "epdColourYellow": "YELLOW"
+    },
+    "fonts": {
+        "font18": ["Font.ttc", 18],
+        "font24": ["Font.ttc", 24],
+        "font40": ["Font.ttc", 40]
+    },
+    "services": {
+        "kucoin": {
+            "url": "https://api.kucoin.com/api/v1/market/allTickers",
+            "responseType": "json",
+            "pairs": [
+                "BTC-USDC",
+                "LTC-USDC",
+                "LINK-USDC",
+                "SOL-USDC"
+            ]
+        },
+        "weather": {
+            "url": "https://api.openweathermap.org/data/2.5/weather?units=metric",
+            "responseType": "json",
+            "params": {
+                "q": "Mogilev",
+                "lang": "be",
+                "appid": "${OPENWEATHERMAP_API_KEY}"
+            },
+            "refreshInterval": 600000,
+            "data": {
+                "temp": {
+                    "path": "main.temp",
+                    "type": "float",
+                    "round": 2
+                },
+                "feels_like": {
+                    "path": "main.feels_like",
+                    "type": "float",
+                    "round": 2
+                },
+                "humidity": {
+                    "path": "main.humidity",
+                    "type": "int"
+                },
+                "pressure": {
+                    "path": "main.pressure",
+                    "type": "int"
+                },
+                "wind_speed": {
+                    "path": "wind.speed",
+                    "type": "float",
+                    "round": 2
+                },
+                "wind_deg": {
+                    "path": "wind.deg",
+                    "type": "int"
+                },
+                "clouds": {
+                    "path": "clouds.all",
+                    "type": "int"
+                },
+                "description": {
+                    "path": "weather[0].description",
+                    "type": "string"
+                }
+            }
+        },
+        "sensors1": {
+            "url": "http://192.168.0.106/sensors",
+            "responseType": "text",
+            "refreshInterval": 600000,
+            "data": {
+                "dsw1": {
+                    "path": "dsw1",
+                    "type": "float",
+                    "round": 2
+                },
+                "dsw2": {
+                    "path": "dsw2",
+                    "type": "float",
+                    "round": 2
+                }
+            }
+        },
+        "sensors2": {
+            "url": "http://192.168.0.100/sensors",
+            "responseType": "text",
+            "refreshInterval": 600000,
+            "data": {
+                "bmpt": {
+                    "path": "bmpt",
+                    "type": "float",
+                    "round": 2
+                },
+                "bmpp": {
+                    "path": "bmpp",
+                    "type": "float",
+                    "round": 2
+                }
+            }
+        }
+    },
+    "dashboard": {
+        "lines": [
+            {
+                "startX": 5,
+                "startY": 0,
+                "items": [
+                    {
+                        "key": "temp",
+                        "name": "Temperature",
+                        "unit": "°C",
+                        "unitAfter": false,
+                        "font": "font18",
+                        "colour": "RED",
+                        "from": 80,
+                        "after": 10
+                    },
+                    {
+                        "key": "feels_like",
+                        "name": "like",
+                        "unit": "",
+                        "unitAfter": false,
+                        "font": "font18",
+                        "colour": "BLACK",
+                        "from": 100,
+                        "after": 10
+                    }
+                ]
+            }
+        ]
+    }
+}
