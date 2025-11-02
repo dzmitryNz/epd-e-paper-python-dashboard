@@ -21,10 +21,18 @@ class DisplayRenderer:
         self.epd_type = config['display']['epdDisplayType']
         self.epd = epd2in15g.EPD()
         self.old_data_colour = config['display'].get('oldDataColour', 'YELLOW')
+        self.rotation = config['display'].get('epdDisplayRotation', 0)
         
         self.fonts = self._load_fonts()
         self.line_height = config['layout'].get('lineHeight', 22)
         self.start_x = config['layout'].get('startX', 5)
+        
+        if self.rotation in [90, 270]:
+            self.image_width = self.epd.height
+            self.image_height = self.epd.width
+        else:
+            self.image_width = self.epd.width
+            self.image_height = self.epd.height
         
     def _load_fonts(self) -> Dict[str, ImageFont.FreeTypeFont]:
         """Loads fonts from configuration"""
@@ -116,10 +124,8 @@ class DisplayRenderer:
     
     def render(self, data: Dict[str, Any], data_ages: Dict[str, Dict[str, bool]]) -> Image.Image:
         """Renders all data on image"""
-        width = self.epd.width
-        height = self.epd.height
         
-        image = Image.new('RGB', (width, height), self.epd.WHITE)
+        image = Image.new('RGB', (self.image_width, self.image_height), self.epd.WHITE)
         draw = ImageDraw.Draw(image)
         
         y_pos = 0
@@ -185,8 +191,11 @@ class DisplayRenderer:
             after_y = line_config.get('afterY', self.line_height)
             y_pos += after_y
             
-            if y_pos > width - 30:
+            if y_pos > self.image_height - 30:
                 break
+        
+        if self.rotation != 0:
+            image = image.rotate(-self.rotation, expand=True, fillcolor=self.epd.WHITE)
         
         return image
     
