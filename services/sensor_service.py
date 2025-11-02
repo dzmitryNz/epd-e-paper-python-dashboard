@@ -95,9 +95,9 @@ def fetch_sensor_data(config: Dict[str, Any], service_key: str) -> Optional[Dict
 def fetch_all_sensor_data(config: Dict[str, Any]) -> Dict[str, Any]:
     """Fetches data from all sensor sources"""
     all_sensor_data = {}
-    
-    service_keys = [key for key in config.get('services', {}).keys() if key.startswith('sensors')]
-    
+    logging.info(f"Fetching all sensor data")
+    service_keys = [key for key in config.get('services', {}).keys() if key.startswith('wifiiot')]
+    logging.info(f"Service keys: {service_keys}")
     for service_key in service_keys:
         sensor_data = fetch_sensor_data(config, service_key)
         if sensor_data:
