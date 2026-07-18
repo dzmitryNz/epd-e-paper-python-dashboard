@@ -81,8 +81,8 @@ def fetch_sensor_data(config: Dict[str, Any], service_key: str) -> Optional[Dict
                     sensor_data[key] = format_value(str(raw_value), value_config)
                 except (KeyError, TypeError):
                     logging.warning(f"Failed to extract {key} from sensor data")
-        sensor_data[key] = None
-        
+                    sensor_data[key] = None
+
         logging.info(f"Sensor data {service_key} received: {list(sensor_data.keys())}")
         return sensor_data
     except requests.RequestException as e:

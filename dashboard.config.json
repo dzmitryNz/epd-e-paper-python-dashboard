@@ -1,175 +1,87 @@
 {
     "display": {
-        "epdDisplayType": "epd2in15g",
-        "epdDisplayWidth": 296,
-        "epdDisplayHeight": 160,
-        "epdDisplayRotation": 90,
-        "epdDisplayInvert": false,
-        "epdDisplayBrightness": 100,
-        "epdDisplayContrast": 100,
-        "epdDisplaySaturation": 100,
-        "epdDisplayHue": 100,
-        "epdDisplayGamma": 100,
-        "epdColourMode": "RGB",
-        "colours": [
-            "WHITE",
-            "BLACK",
-            "RED",
-            "YELLOW"
-        ],
-        "epdColourBlack": "BLACK",
-        "epdColourWhite": "WHITE",
-        "epdColourRed": "RED",
-        "epdColourYellow": "YELLOW",
-        "oldDataColour": "YELLOW"
+        "epdDisplayType": "env.EPD_MODEL",
+        "epdDisplayWidth": "env.EPD_WIDTH",
+        "epdDisplayHeight": "env.EPD_HEIGHT",
+        "epdDisplayRotation": "env.EPD_ROTATION",
+        "epdColourMode": "4GRAY",
+        "colours": ["GRAY1", "GRAY2", "GRAY3", "GRAY4"],
+        "oldDataColour": "GRAY3"
     },
     "fonts": {
-        "font15": [
-            "Font.ttc",
-            15
-        ],
-        "font18": [
-            "Font.ttc",
-            18
-        ],
-        "font24": [
-            "Font.ttc",
-            24
-        ],
-        "font40": [
-            "Font.ttc",
-            40
-        ]
+        "font15": ["Font.ttc", 15],
+        "font18": ["Font.ttc", 18],
+        "font24": ["Font.ttc", 24],
+        "font40": ["Font.ttc", 40]
     },
     "layout": {
-        "lineHeight": 22,
-        "startX": 5,
+        "lineHeight": 25,
+        "startX": 0,
         "iconsPath": "./icons/"
     },
     "services": {
         "kucoin": {
-            "url": "https://api.kucoin.com/api/v1/market/allTickers",
+            "url": "env.KUCOIN_URL",
             "responseType": "json",
-            "pairs": [
-                "BTC-USDC",
-                "LTC-USDC",
-                "LINK-USDC",
-                "SOL-USDC"
-            ],
+            "pairs": ["BTC-USDC", "LTC-USDC", "LINK-USDC"],
             "refreshInterval": 600000,
             "data": {
-                "BTC-USDC": {
-                    "path": "last",
-                    "type": "int"
-                },
-                "LTC-USDC": {
-                    "path": "last",
-                    "type": "int"
-                },
-                "LINK-USDC": {
-                    "path": "last",
-                    "type": "float",
-                    "round": 2
-                },
-                "SOL-USDC": {
-                    "path": "last",
-                    "type": "float",
-                    "round": 2
-                }
+                "BTC-USDC": {"path": "last", "type": "int"},
+                "LTC-USDC": {"path": "last", "type": "int"},
+                "LINK-USDC": {"path": "last", "type": "float", "round": 2}
             }
         },
         "weather": {
-            "url": "https://api.openweathermap.org/data/2.5/weather?units=metric",
+            "url": "env.WEATHER_URL",
             "responseType": "json",
             "params": {
                 "q": "Mogilev",
                 "lang": "be",
+                "units": "metric",
                 "appid": "env.OPENWEATHERMAP_API_KEY"
             },
             "refreshInterval": 600000,
             "data": {
-                "temp": {
-                    "path": "main.temp",
-                    "type": "float",
-                    "round": 2
-                },
-                "feels_like": {
-                    "path": "main.feels_like",
-                    "type": "float",
-                    "round": 2
-                },
-                "humidity": {
-                    "path": "main.humidity",
-                    "type": "int"
-                },
-                "pressure": {
-                    "path": "main.pressure",
-                    "type": "int"
-                },
-                "wind_speed": {
-                    "path": "wind.speed",
-                    "type": "float",
-                    "round": 2
-                },
-                "wind_deg": {
-                    "path": "wind.deg",
-                    "type": "int"
-                },
-                "clouds": {
-                    "path": "clouds.all",
-                    "type": "int"
-                },
-                "description": {
-                    "path": "weather[0].description",
-                    "type": "string"
-                },
-                "sunrise": {
-                    "path": "sys.sunrise",
-                    "type": "int"
-                },
-                "sunset": {
-                    "path": "sys.sunset",
-                    "type": "int"
-                },
-                "weather_icon": {
-                    "path": "weather[0].icon",
-                    "type": "string"
-                }
+                "temp": {"path": "main.temp", "type": "float", "round": 1},
+                "feels_like": {"path": "main.feels_like", "type": "float", "round": 1},
+                "humidity": {"path": "main.humidity", "type": "int"},
+                "pressure": {"path": "main.pressure", "type": "int"},
+                "wind_speed": {"path": "wind.speed", "type": "float", "round": 1},
+                "wind_deg": {"path": "wind.deg", "type": "int"},
+                "clouds": {"path": "clouds.all", "type": "int"},
+                "description": {"path": "weather[0].description", "type": "string"},
+                "sunrise": {"path": "sys.sunrise", "type": "int"},
+                "sunset": {"path": "sys.sunset", "type": "int"}
             }
         },
         "wifiiot_sensors_1": {
-            "url": "http://192.168.0.106/sensors",
+            "url": "env.SENSORS_URL_1",
             "responseType": "text",
             "refreshInterval": 600000,
             "data": {
-                "dsw1": {
-                    "path": "dsw1",
-                    "type": "float",
-                    "round": 2
-                },
-                "dsw2": {
-                    "path": "dsw2",
-                    "type": "float",
-                    "round": 2
-                }
+                "dsw1": {"path": "dsw1", "type": "float", "round": 2},
+                "dsw2": {"path": "dsw2", "type": "float", "round": 2}
             }
         },
         "wifiiot_sensors_2": {
-            "url": "http://192.168.0.100/sensors",
+            "url": "env.SENSORS_URL_2",
             "responseType": "text",
             "refreshInterval": 600000,
             "data": {
-                "bmpt": {
-                    "path": "bmpt",
-                    "type": "float",
-                    "round": 2
-                },
-                "bmpp": {
-                    "path": "bmpp",
-                    "type": "float",
-                    "round": 2
-                }
+                "bmpt": {"path": "bmpt", "type": "float", "round": 2},
+                "bmpp": {"path": "bmpp", "type": "float", "round": 2}
             }
+        },
+        "solopool": {
+            "url": "env.SOLOPOOL_URL",
+            "responseType": "json",
+            "refreshInterval": 600000
+        },
+        "nano3stats": {
+            "url": "env.NANO3STATS_URL",
+            "authCookie": "env.NANO3STATS_AUTH",
+            "responseType": "jsonp",
+            "refreshInterval": 600000
         }
     },
     "dashboard": {
@@ -177,225 +89,90 @@
             {
                 "name": "datetime",
                 "startY": 0,
-                "startX": 5,
-                "afterY": 30,
+                "afterY": 27,
                 "items": [
-                    {
-                        "type": "datetime",
-                        "format": "%a - %d %b - %H:%M",
-                        "font": "font24",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "weather_icon",
-                        "prefix": "",
-                        "suffix": "",
-                        "font": "icons",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "datetime", "format": "%a - %d %b - %H:%M", "font": "font24", "colour": "GRAY4"}
                 ]
             },
             {
                 "name": "sun_times",
-                "startX": 5,
-                "afterY": 30,
+                "afterY": 25,
                 "items": [
-                    {
-                        "type": "sunrise",
-                        "prefix": "↑",
-                        "format": "%H:%M",
-                        "suffix": "",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "sunset",
-                        "prefix": "↓",
-                        "format": "%H:%M",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "description",
-                        "prefix": " ",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "sunrise", "prefix": " ↑ ", "format": "%H:%M", "font": "font18", "colour": "GRAY4"},
+                    {"type": "sunset", "prefix": "  ↓ ", "format": "%H:%M", "font": "font18", "colour": "GRAY4"},
+                    {"type": "description", "prefix": "   ", "font": "font18", "colour": "GRAY4"}
                 ]
             },
             {
-                "name": "weather_sensors",
-                "startY": 47,
-                "startX": 5,
-                "afterY": 30,
+                "name": "out_temp",
+                "afterY": 25,
                 "items": [
-                    {
-                        "type": "dsw1",
-                        "prefix": "Out, °C:",
-                        "suffix": " ",
-                        "font": "font24",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "feels_like",
-                        "prefix": "feels",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "temp",
-                        "prefix": " ",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "text", "text": "Out, °C:", "font": "font18", "colour": "GRAY4"},
+                    {"type": "dsw1", "category": "sensors", "font": "font24", "colour": "GRAY4", "startX": 70, "offsetY": -4},
+                    {"type": "feels_like", "category": "weather", "prefix": " Адчув. ", "font": "font18", "colour": "GRAY4", "startX": 120},
+                    {"type": "temp", "category": "weather", "prefix": " - ", "font": "font18", "colour": "GRAY4"}
                 ]
             },
             {
-                "type": "weather_details",
-                "startX": 5,
-                "afterY": 30,
+                "name": "humidity_wind",
+                "afterY": 25,
                 "items": [
-                    {
-                        "type": "humidity",
-                        "prefix": "Hum, %:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "YELLOW",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "wind_speed",
-                        "prefix": "Wind, ms:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "wind_direction",
-                        "prefix": " ",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "text", "text": "Вільг, %:", "font": "font18", "colour": "GRAY4"},
+                    {"type": "humidity", "category": "weather", "font": "font24", "colour": "GRAY4", "startX": 75, "offsetY": -4},
+                    {"type": "wind_direction", "category": "weather", "prefix": "Вецер ", "font": "font18", "colour": "GRAY4", "startX": 120},
+                    {"type": "wind_speed", "category": "weather", "prefix": ", ", "suffix": " мс", "font": "font18", "colour": "GRAY4"}
                 ]
             },
             {
-                "type": "pressure_clouds",
-                "startX": 5,
-                "afterY": 30,
+                "name": "pressure_clouds",
+                "afterY": 23,
                 "items": [
-                    {
-                        "type": "bmpp",
-                        "prefix": "Press, hPa:",
-                        "suffix": " ",
-                        "font": "font24",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "clouds",
-                        "prefix": "Вобл, %:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "BLACK",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "text", "text": "Ціск, hPa:", "font": "font18", "colour": "GRAY4"},
+                    {"type": "bmpp", "category": "sensors", "font": "font24", "colour": "GRAY4", "startX": 85, "offsetY": -4},
+                    {"type": "clouds", "category": "weather", "prefix": "Вобл ", "suffix": " %", "font": "font18", "colour": "GRAY4", "startX": 170}
                 ]
             },
             {
-                "type": "balcony_bk_temps",
-                "startX": 5,
-                "afterY": 30,
+                "name": "balcony_bk",
+                "afterY": 23,
                 "items": [
-                    {
-                        "type": "dsw2",
-                        "prefix": "Bal, °C:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "bmpt",
-                        "prefix": "BK, °C:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "text", "text": "Бал, °C:", "font": "font18", "colour": "GRAY4"},
+                    {"type": "dsw2", "category": "sensors", "font": "font18", "colour": "GRAY4", "startX": 70},
+                    {"type": "text", "text": "ВК, °C:", "font": "font18", "colour": "GRAY4", "startX": 120},
+                    {"type": "bmpt", "category": "sensors", "font": "font18", "colour": "GRAY4", "startX": 180}
                 ]
             },
             {
-                "type": "crypto_prices",
-                "startX": 5,
-                "afterY": 30,
+                "name": "crypto",
+                "afterY": 23,
                 "items": [
-                    {
-                        "type": "BTC-USDC",
-                        "prefix": "BTC, USDC:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "LTC-USDC",
-                        "prefix": "LTC, USDC:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "LINK-USDC",
-                        "prefix": "LINK, USDC:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    },
-                    {
-                        "type": "SOL-USDC",
-                        "prefix": "SOL, USDC:",
-                        "suffix": " ",
-                        "font": "font18",
-                        "colour": "RED",
-                        "startY": 0,
-                        "beforeX": 0
-                    }
+                    {"type": "text", "text": "BTC", "font": "font18", "colour": "GRAY4", "afterX": 5},
+                    {"type": "BTC-USDC", "category": "kucoin", "font": "font18", "colour": "GRAY4", "afterX": 20},
+                    {"type": "text", "text": "LTC", "font": "font18", "colour": "GRAY4", "afterX": 5},
+                    {"type": "LTC-USDC", "category": "kucoin", "font": "font18", "colour": "GRAY4", "afterX": 20},
+                    {"type": "text", "text": "LINK", "font": "font18", "colour": "GRAY4", "afterX": 5},
+                    {"type": "LINK-USDC", "category": "kucoin", "font": "font18", "colour": "GRAY4"}
                 ]
+            },
+            {
+                "name": "mining",
+                "afterY": 25,
+                "items": [
+                    {"type": "blocks", "category": "solopool", "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "hashrate", "category": "solopool", "prefix": "FB ", "suffix": "H/s", "format": "hashrate", "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "luck", "category": "solopool", "suffix": " %", "font": "font18", "colour": "GRAY4", "afterX": 10},
+                    {"type": "workingmode", "category": "nano3stats", "map": {"0": "Lo", "1": "Mi", "2": "Hi"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "workingstatus", "category": "nano3stats", "map": {"0": "Init", "1": "Fine", "2": "Idle"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "power", "category": "nano3stats", "suffix": "W", "font": "font18", "colour": "GRAY4"}
+                ]
+            },
+            {
+                "name": "verbs",
+                "type": "verbs",
+                "font": "font18",
+                "lineHeight": 25,
+                "colour": "GRAY4",
+                "secondaryColour": "GRAY3"
             }
         ]
     }

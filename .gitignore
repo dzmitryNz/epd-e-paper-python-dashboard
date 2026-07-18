@@ -1,3 +1,7 @@
 __*
 *.pyc
 .env
+saved_display_image.png
+dashboard_data.json
+verbs_state.json
+sensor_data.json

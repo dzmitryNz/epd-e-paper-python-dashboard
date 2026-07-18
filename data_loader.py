@@ -5,6 +5,8 @@ from typing import Dict, Any, Optional
 from services.weather_service import fetch_weather_data
 from services.kucoin_service import fetch_kucoin_data
 from services.sensor_service import fetch_all_sensor_data
+from services.solopool_service import fetch_solopool_data
+from services.nano3stats_service import fetch_nano3stats_data
 from data_storage import load_data, is_valid_value, get_cached_value
 
 def merge_data_with_cache(current_data: Optional[Dict[str, Any]], 
@@ -37,53 +39,34 @@ def merge_data_with_cache(current_data: Optional[Dict[str, Any]],
     
     return result, age_flags
 
+DATA_SOURCES = {
+    'weather': 'fetch_weather_data',
+    'kucoin': 'fetch_kucoin_data',
+    'sensors': 'fetch_all_sensor_data',
+    'solopool': 'fetch_solopool_data',
+    'nano3stats': 'fetch_nano3stats_data',
+}
+
 def load_all_data(config: Dict[str, Any], use_cache: bool = True):
     """Loads data from all sources, using cache when needed.
     Returns data and dictionary of data age flags."""
     cached_data = load_data() if use_cache else {}
-    
-    all_data = {
-        'weather': {},
-        'kucoin': {},
-        'sensors': {}
-    }
-    data_ages = {
-        'weather': {},
-        'kucoin': {},
-        'sensors': {}
-    }
-    
+
+    all_data = {category: {} for category in DATA_SOURCES}
+    data_ages = {category: {} for category in DATA_SOURCES}
+
     logging.info("Loading data from all sources...")
-    
-    weather_data = fetch_weather_data(config)
-    if weather_data:
-        all_data['weather'], data_ages['weather'] = merge_data_with_cache(weather_data, cached_data, 'weather')
-    elif use_cache:
-        cached_weather = cached_data.get('weather', {})
-        if cached_weather:
-            all_data['weather'] = cached_weather.copy()
-            for key in cached_weather.keys():
-                data_ages['weather'][key] = True
-    
-    kucoin_data = fetch_kucoin_data(config)
-    if kucoin_data:
-        all_data['kucoin'], data_ages['kucoin'] = merge_data_with_cache(kucoin_data, cached_data, 'kucoin')
-    elif use_cache:
-        cached_kucoin = cached_data.get('kucoin', {})
-        if cached_kucoin:
-            all_data['kucoin'] = cached_kucoin.copy()
-            for key in cached_kucoin.keys():
-                data_ages['kucoin'][key] = True
-    
-    sensor_data = fetch_all_sensor_data(config)
-    if sensor_data:
-        all_data['sensors'], data_ages['sensors'] = merge_data_with_cache(sensor_data, cached_data, 'sensors')
-    elif use_cache:
-        cached_sensors = cached_data.get('sensors', {})
-        if cached_sensors:
-            all_data['sensors'] = cached_sensors.copy()
-            for key in cached_sensors.keys():
-                data_ages['sensors'][key] = True
-    
+
+    for category, fetch_name in DATA_SOURCES.items():
+        current = globals()[fetch_name](config)
+        if current:
+            all_data[category], data_ages[category] = merge_data_with_cache(current, cached_data, category)
+        elif use_cache:
+            cached_category = cached_data.get(category, {})
+            if cached_category:
+                all_data[category] = cached_category.copy()
+                for key in cached_category.keys():
+                    data_ages[category][key] = True
+
     return all_data, data_ages
 

@@ -39,16 +39,37 @@ def load_env_file(env_path: str = '.env') -> bool:
         logging.warning(f"Error parsing .env file: {e}")
         return False
 
+def resolve_env(value: Any) -> Any:
+    """Recursively substitutes 'env.NAME' and '${NAME}' strings with environment values"""
+    if isinstance(value, dict):
+        return {key: resolve_env(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [resolve_env(item) for item in value]
+    if isinstance(value, str):
+        env_var = None
+        if value.startswith('env.'):
+            env_var = value[4:]
+        elif value.startswith('${') and value.endswith('}'):
+            env_var = value[2:-1]
+        if env_var is not None:
+            resolved = os.environ.get(env_var)
+            if resolved is None:
+                logging.warning(f"Environment variable {env_var} is not set")
+                return ''
+            return resolved
+    return value
+
 def load_config(config_path: str = 'dashboard.config.json') -> Optional[Dict[str, Any]]:
     """Loads configuration from JSON file"""
     try:
         if not os.path.exists(config_path):
             logging.error(f"Configuration file not found: {config_path}")
             return None
-        
+
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
-        
+
+        config = resolve_env(config)
         logging.info(f"Configuration loaded from {config_path}")
         return config
     except json.JSONDecodeError as e:
