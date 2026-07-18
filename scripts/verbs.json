@@ -1,0 +1,4391 @@
+[
+  {
+    "infinitive": "draw",
+    "past": "drew",
+    "past_participle": "drawn",
+    "translation": "маляваць",
+    "translations": {
+      "infinitive": "маляваць",
+      "past": "маляваў",
+      "past_participle": "намаляваны"
+    },
+    "examples": [
+      "Draw a picture",
+      "She drew it",
+      "Have you drawn?"
+    ],
+    "example_translations": [
+      "Намалюй карціну",
+      "Яна намалявала гэта",
+      "Ці намаляваў ты?"
+    ]
+  },
+  {
+    "infinitive": "smell",
+    "past": "smelt",
+    "past_participle": "smelt",
+    "translation": "пахнуць",
+    "translations": {
+      "infinitive": "пахнуць",
+      "past": "пахнуў",
+      "past_participle": "пахнуўшы"
+    },
+    "examples": [
+      "Smell flowers",
+      "It smelt good",
+      "Have you smelt?"
+    ],
+    "example_translations": [
+      "Пахні кветкі",
+      "Гэта добра пахла",
+      "Ці пахнуў ты?"
+    ]
+  },
+  {
+    "infinitive": "wake up",
+    "past": "woke up",
+    "past_participle": "woken up",
+    "translation": "прачынацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "прачынацца",
+      "past": "прачнуўся",
+      "past_participle": "прачнуўшыся"
+    },
+    "examples": [
+      "Wake up early",
+      "I woke up",
+      "Have you woken up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "knit",
+    "past": "knit",
+    "past_participle": "knit",
+    "translation": "вязаць",
+    "translations": {
+      "infinitive": "вязаць",
+      "past": "вязаў",
+      "past_participle": "звязаны"
+    },
+    "examples": [
+      "Knit a sweater",
+      "She knit",
+      "Have you knit?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "drive",
+    "past": "drove",
+    "past_participle": "driven",
+    "translation": "вадзіць",
+    "translations": {
+      "infinitive": "вадзіць",
+      "past": "вадзіў",
+      "past_participle": "паваджаны"
+    },
+    "examples": [
+      "Drive a car",
+      "He drove fast",
+      "Have you driven?"
+    ],
+    "example_translations": [
+      "Вадзі машыну",
+      "Ён вадзіў хутка",
+      "Ці вадзіў ты?"
+    ]
+  },
+  {
+    "infinitive": "hang",
+    "past": "hung",
+    "past_participle": "hung",
+    "translation": "вешаць",
+    "translations": {
+      "infinitive": "вешаць",
+      "past": "вешаў",
+      "past_participle": "павешаны"
+    },
+    "examples": [
+      "Hang a picture",
+      "He hung it",
+      "Have you hung?"
+    ],
+    "example_translations": [
+      "Павесь карціну",
+      "Ён павесіў гэта",
+      "Ці павесіў ты?"
+    ]
+  },
+  {
+    "infinitive": "keep on",
+    "past": "kept on",
+    "past_participle": "kept on",
+    "translation": "працягваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "працягваць",
+      "past": "працягваў",
+      "past_participle": "працягваўшы"
+    },
+    "examples": [
+      "Keep on trying",
+      "He kept on",
+      "Have you kept on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "lay",
+    "past": "laid",
+    "past_participle": "laid",
+    "translation": "класці",
+    "description": "не блытаць з lie (ляжаць)",
+    "translations": {
+      "infinitive": "класці",
+      "past": "клаў",
+      "past_participle": "паложаны"
+    },
+    "examples": [
+      "Lay the book",
+      "She laid it down",
+      "Have you laid it?"
+    ],
+    "example_translations": [
+      "Пакладзі кнігу",
+      "Яна паклала гэта",
+      "Ці паклаў ты гэта?"
+    ]
+  },
+  {
+    "infinitive": "take off",
+    "past": "took off",
+    "past_participle": "taken off",
+    "translation": "здымаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "здымаць",
+      "past": "зняў",
+      "past_participle": "зняты"
+    },
+    "examples": [
+      "Take off shoes",
+      "He took off",
+      "Have you taken off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "come up",
+    "past": "came up",
+    "past_participle": "come up",
+    "translation": "узнікаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "узнікаць",
+      "past": "узнік",
+      "past_participle": "узнікшы"
+    },
+    "examples": [
+      "Come up with idea",
+      "It came up",
+      "Has it come up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "grind",
+    "past": "ground",
+    "past_participle": "ground",
+    "translation": "малоць",
+    "translations": {
+      "infinitive": "малоць",
+      "past": "малоў",
+      "past_participle": "памолаты"
+    },
+    "examples": [
+      "Grind coffee",
+      "He ground it",
+      "Have you ground?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "cut",
+    "past": "cut",
+    "past_participle": "cut",
+    "translation": "рэзаць",
+    "translations": {
+      "infinitive": "рэзаць",
+      "past": "рэзаў",
+      "past_participle": "разрэзаны"
+    },
+    "examples": [
+      "Cut the bread",
+      "She cut it",
+      "Have you cut?"
+    ],
+    "example_translations": [
+      "Разрэж хлеб",
+      "Яна разрэзала гэта",
+      "Ці разрэзаў ты?"
+    ]
+  },
+  {
+    "infinitive": "sing",
+    "past": "sang",
+    "past_participle": "sung",
+    "translation": "спяваць",
+    "translations": {
+      "infinitive": "спяваць",
+      "past": "спяваў",
+      "past_participle": "спета"
+    },
+    "examples": [
+      "Sing a song",
+      "She sang",
+      "Have you sung?"
+    ],
+    "example_translations": [
+      "Спявай песню",
+      "Яна спявала",
+      "Ці спяваў ты?"
+    ]
+  },
+  {
+    "infinitive": "give",
+    "past": "gave",
+    "past_participle": "given",
+    "translation": "даваць",
+    "translations": {
+      "infinitive": "даваць",
+      "past": "даў",
+      "past_participle": "дадзены"
+    },
+    "examples": [
+      "Give me a pen",
+      "She gave it",
+      "Have you given?"
+    ],
+    "example_translations": [
+      "Дай мне ручку",
+      "Яна дала гэта",
+      "Ці даў ты?"
+    ]
+  },
+  {
+    "infinitive": "get back",
+    "past": "got back",
+    "past_participle": "got back",
+    "translation": "вяртацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "вяртацца",
+      "past": "вярнуўся",
+      "past_participle": "вярнуўшыся"
+    },
+    "examples": [
+      "Get back home",
+      "He got back",
+      "Have you got back?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "pick up",
+    "past": "picked up",
+    "past_participle": "picked up",
+    "translation": "паднімаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "паднімаць",
+      "past": "падняў",
+      "past_participle": "падняты"
+    },
+    "examples": [
+      "Pick up a book",
+      "He picked up",
+      "Have you picked up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "look after",
+    "past": "looked after",
+    "past_participle": "looked after",
+    "translation": "даглядаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "даглядаць",
+      "past": "даглядаў",
+      "past_participle": "даглядаўшы"
+    },
+    "examples": [
+      "Look after children",
+      "She looked after them",
+      "Have you looked after?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "sweat",
+    "past": "sweat",
+    "past_participle": "sweat",
+    "translation": "пацець",
+    "translations": {
+      "infinitive": "пацець",
+      "past": "пацеў",
+      "past_participle": "папацеўшы"
+    },
+    "examples": [
+      "Sweat a lot",
+      "He sweat",
+      "Have you sweat?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "find out",
+    "past": "found out",
+    "past_participle": "found out",
+    "translation": "даведацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "даведацца",
+      "past": "даведаўся",
+      "past_participle": "даведаўшыся"
+    },
+    "examples": [
+      "Find out the truth",
+      "I found out",
+      "Have you found out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "weave",
+    "past": "wove",
+    "past_participle": "woven",
+    "translation": "ткаць",
+    "translations": {
+      "infinitive": "ткаць",
+      "past": "ткаў",
+      "past_participle": "сплецены"
+    },
+    "examples": [
+      "Weave cloth",
+      "She wove",
+      "Have you woven?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "work out",
+    "past": "worked out",
+    "past_participle": "worked out",
+    "translation": "трэніравацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "трэніравацца",
+      "past": "трэніраваўся",
+      "past_participle": "патрэніраваўся"
+    },
+    "examples": [
+      "Work out at gym",
+      "He worked out",
+      "Have you worked out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "sting",
+    "past": "stung",
+    "past_participle": "stung",
+    "translation": "жаліць",
+    "translations": {
+      "infinitive": "жаліць",
+      "past": "жаліў",
+      "past_participle": "ужалены"
+    },
+    "examples": [
+      "Sting a bee",
+      "It stung",
+      "Have you stung?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "cost",
+    "past": "cost",
+    "past_participle": "cost",
+    "translation": "каштаваць",
+    "translations": {
+      "infinitive": "каштаваць",
+      "past": "каштаваў",
+      "past_participle": "каштаваўшы"
+    },
+    "examples": [
+      "Cost money",
+      "It cost $10",
+      "Have you cost?"
+    ],
+    "example_translations": [
+      "Каштуй грошы",
+      "Гэта каштавала 10 долараў",
+      "Ці каштаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "drop off",
+    "past": "dropped off",
+    "past_participle": "dropped off",
+    "translation": "высаджваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "высаджваць",
+      "past": "высадзіў",
+      "past_participle": "высаджаны"
+    },
+    "examples": [
+      "Drop off passengers",
+      "He dropped off",
+      "Have you dropped off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "throw away",
+    "past": "threw away",
+    "past_participle": "thrown away",
+    "translation": "выкідваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выкідваць",
+      "past": "выкінуў",
+      "past_participle": "выкінуты"
+    },
+    "examples": [
+      "Throw away trash",
+      "He threw away",
+      "Have you thrown away?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "foretell",
+    "past": "foretold",
+    "past_participle": "foretold",
+    "translation": "прадказваць",
+    "translations": {
+      "infinitive": "прадказваць",
+      "past": "прадказаў",
+      "past_participle": "прадказаны"
+    },
+    "examples": [
+      "Foretell future",
+      "He foretold",
+      "Have you foretold?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "forgive",
+    "past": "forgave",
+    "past_participle": "forgiven",
+    "translation": "прабачаць",
+    "translations": {
+      "infinitive": "прабачаць",
+      "past": "прабачаў",
+      "past_participle": "прабачаны"
+    },
+    "examples": [
+      "Forgive me",
+      "She forgave",
+      "Have you forgiven?"
+    ],
+    "example_translations": [
+      "Прабач мяне",
+      "Яна прабачыла",
+      "Ці прабачыў ты?"
+    ]
+  },
+  {
+    "infinitive": "swing",
+    "past": "swung",
+    "past_participle": "swung",
+    "translation": "калыхаць",
+    "translations": {
+      "infinitive": "калыхаць",
+      "past": "калыхаў",
+      "past_participle": "пакалыханы"
+    },
+    "examples": [
+      "Swing high",
+      "It swung",
+      "Have you swung?"
+    ],
+    "example_translations": [
+      "Калыхайся высока",
+      "Гэта калыхалася",
+      "Ці калыхаўся ты?"
+    ]
+  },
+  {
+    "infinitive": "become",
+    "past": "became",
+    "past_participle": "become",
+    "translation": "становіцца",
+    "translations": {
+      "infinitive": "становіцца",
+      "past": "стаў",
+      "past_participle": "стаўшы"
+    },
+    "examples": [
+      "Become a doctor",
+      "He became rich",
+      "Have you become?"
+    ],
+    "example_translations": [
+      "Стань доктарам",
+      "Ён стаў багатым",
+      "Ці стаў ты?"
+    ]
+  },
+  {
+    "infinitive": "tread",
+    "past": "trod",
+    "past_participle": "trodden",
+    "translation": "ступаць",
+    "translations": {
+      "infinitive": "ступаць",
+      "past": "ступаў",
+      "past_participle": "паступіўшы"
+    },
+    "examples": [
+      "Tread carefully",
+      "He trod",
+      "Have you trodden?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "dig",
+    "past": "dug",
+    "past_participle": "dug",
+    "translation": "капаць",
+    "translations": {
+      "infinitive": "капаць",
+      "past": "капаў",
+      "past_participle": "выкапаны"
+    },
+    "examples": [
+      "Dig a hole",
+      "He dug it",
+      "Have you dug?"
+    ],
+    "example_translations": [
+      "Выкапай яму",
+      "Ён выкапаў гэта",
+      "Ці выкапаў ты?"
+    ]
+  },
+  {
+    "infinitive": "go on",
+    "past": "went on",
+    "past_participle": "gone on",
+    "translation": "працягваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "працягваць",
+      "past": "працягваў",
+      "past_participle": "працягваўшы"
+    },
+    "examples": [
+      "Go on talking",
+      "He went on",
+      "Have you gone on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "give up",
+    "past": "gave up",
+    "past_participle": "given up",
+    "translation": "здавацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "здавацца",
+      "past": "здаўся",
+      "past_participle": "здаўшыся"
+    },
+    "examples": [
+      "Give up smoking",
+      "He gave up",
+      "Have you given up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "withdraw",
+    "past": "withdrew",
+    "past_participle": "withdrawn",
+    "translation": "выводзіць",
+    "translations": {
+      "infinitive": "выводзіць",
+      "past": "вывеў",
+      "past_participle": "выведзены"
+    },
+    "examples": [
+      "Withdraw money",
+      "He withdrew",
+      "Have you withdrawn?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "catch",
+    "past": "caught",
+    "past_participle": "caught",
+    "translation": "лавіць",
+    "translations": {
+      "infinitive": "лавіць",
+      "past": "лавіў",
+      "past_participle": "злоўлены"
+    },
+    "examples": [
+      "Catch a ball",
+      "I caught it",
+      "Have you caught?"
+    ],
+    "example_translations": [
+      "Злаві мяч",
+      "Я злавіў гэта",
+      "Ці злавіў ты?"
+    ]
+  },
+  {
+    "infinitive": "take after",
+    "past": "took after",
+    "past_participle": "taken after",
+    "translation": "быць падобным",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "быць падобным",
+      "past": "быў падобны",
+      "past_participle": "быўшы падобны"
+    },
+    "examples": [
+      "Take after father",
+      "He took after",
+      "Have you taken after?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "win",
+    "past": "won",
+    "past_participle": "won",
+    "translation": "перамагаць",
+    "translations": {
+      "infinitive": "перамагаць",
+      "past": "перамагаў",
+      "past_participle": "пераможаны"
+    },
+    "examples": [
+      "Win a game",
+      "They won",
+      "Have you won?"
+    ],
+    "example_translations": [
+      "Выйграй гульню",
+      "Яны выйгралі",
+      "Ці выйграў ты?"
+    ]
+  },
+  {
+    "infinitive": "weep",
+    "past": "wept",
+    "past_participle": "wept",
+    "translation": "плакаць",
+    "translations": {
+      "infinitive": "плакаць",
+      "past": "плакаў",
+      "past_participle": "заплаканы"
+    },
+    "examples": [
+      "Weep for joy",
+      "She wept",
+      "Have you wept?"
+    ],
+    "example_translations": [
+      "Плач ад радасці",
+      "Яна плакала",
+      "Ці плакаў ты?"
+    ]
+  },
+  {
+    "infinitive": "awake",
+    "past": "awoke",
+    "past_participle": "awoken",
+    "translation": "прачынацца",
+    "translations": {
+      "infinitive": "прачынацца",
+      "past": "прачнуўся",
+      "past_participle": "прачнуўшыся"
+    },
+    "examples": [
+      "Awake early",
+      "I awoke at dawn",
+      "Have you awoken?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "ring",
+    "past": "rang",
+    "past_participle": "rung",
+    "translation": "званіць",
+    "translations": {
+      "infinitive": "званіць",
+      "past": "званіў",
+      "past_participle": "пазваны"
+    },
+    "examples": [
+      "Ring the bell",
+      "The phone rang",
+      "Have you rung?"
+    ],
+    "example_translations": [
+      "Звані ў званочак",
+      "Тэлефон патэлефанаваў",
+      "Ці патэлефанаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "slide",
+    "past": "slid",
+    "past_participle": "slid",
+    "translation": "слізгаць",
+    "translations": {
+      "infinitive": "слізгаць",
+      "past": "слізгаў",
+      "past_participle": "слізгнуўшы"
+    },
+    "examples": [
+      "Slide on ice",
+      "He slid",
+      "Have you slid?"
+    ],
+    "example_translations": [
+      "Слізгай па лёдзе",
+      "Ён слізгаў",
+      "Ці слізгаў ты?"
+    ]
+  },
+  {
+    "infinitive": "call off",
+    "past": "called off",
+    "past_participle": "called off",
+    "translation": "адмяняць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "адмяняць",
+      "past": "адмяніў",
+      "past_participle": "адменены"
+    },
+    "examples": [
+      "Call off a meeting",
+      "He called off",
+      "Have you called off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "shine",
+    "past": "shone",
+    "past_participle": "shone",
+    "translation": "свяціць",
+    "translations": {
+      "infinitive": "свяціць",
+      "past": "свяціў",
+      "past_participle": "асвечаны"
+    },
+    "examples": [
+      "Shine bright",
+      "The sun shone",
+      "Have you shone?"
+    ],
+    "example_translations": [
+      "Свяці ярка",
+      "Сонца свяціла",
+      "Ці свяціў ты?"
+    ]
+  },
+  {
+    "infinitive": "swim",
+    "past": "swam",
+    "past_participle": "swum",
+    "translation": "плысці",
+    "translations": {
+      "infinitive": "плысці",
+      "past": "плыў",
+      "past_participle": "плыўшы"
+    },
+    "examples": [
+      "Swim fast",
+      "I swam",
+      "Have you swum?"
+    ],
+    "example_translations": [
+      "Плыві хутка",
+      "Я плыў",
+      "Ці плыў ты?"
+    ]
+  },
+  {
+    "infinitive": "put off",
+    "past": "put off",
+    "past_participle": "put off",
+    "translation": "адкладаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "адкладаць",
+      "past": "адклаў",
+      "past_participle": "адкладзены"
+    },
+    "examples": [
+      "Put off a meeting",
+      "He put off",
+      "Have you put off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "carry out",
+    "past": "carried out",
+    "past_participle": "carried out",
+    "translation": "выконваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выконваць",
+      "past": "выканаў",
+      "past_participle": "выкананы"
+    },
+    "examples": [
+      "Carry out a plan",
+      "He carried out",
+      "Have you carried out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "turn down",
+    "past": "turned down",
+    "past_participle": "turned down",
+    "translation": "адмаўляць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "адмаўляць",
+      "past": "адмовіў",
+      "past_participle": "адмоўлены"
+    },
+    "examples": [
+      "Turn down an offer",
+      "He turned down",
+      "Have you turned down?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "think",
+    "past": "thought",
+    "past_participle": "thought",
+    "translation": "думаць",
+    "translations": {
+      "infinitive": "думаць",
+      "past": "думаў",
+      "past_participle": "думаны"
+    },
+    "examples": [
+      "Think about it",
+      "I thought so",
+      "Have you thought?"
+    ],
+    "example_translations": [
+      "Падумай пра гэта",
+      "Я так думаў",
+      "Ці думаў ты?"
+    ]
+  },
+  {
+    "infinitive": "saw",
+    "past": "sawed",
+    "past_participle": "sawn",
+    "translation": "пілаваць",
+    "translations": {
+      "infinitive": "пілаваць",
+      "past": "пілаваў",
+      "past_participle": "распілаваны"
+    },
+    "examples": [
+      "Saw wood",
+      "He sawed",
+      "Have you sawn?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "meet",
+    "past": "met",
+    "past_participle": "met",
+    "translation": "сустракаць",
+    "translations": {
+      "infinitive": "сустракаць",
+      "past": "сустрэў",
+      "past_participle": "сустрэты"
+    },
+    "examples": [
+      "Meet me there",
+      "We met yesterday",
+      "Have you met him?"
+    ],
+    "example_translations": [
+      "Сустрэнь мяне там",
+      "Мы сустрэліся ўчора",
+      "Ці сустрэў ты яго?"
+    ]
+  },
+  {
+    "infinitive": "thrive",
+    "past": "throve",
+    "past_participle": "thriven",
+    "translation": "квітнець",
+    "translations": {
+      "infinitive": "квітнець",
+      "past": "квітнеў",
+      "past_participle": "расквітнеўшы"
+    },
+    "examples": [
+      "Thrive in business",
+      "It throve",
+      "Have you thriven?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "blow",
+    "past": "blew",
+    "past_participle": "blown",
+    "translation": "дзьмуць",
+    "translations": {
+      "infinitive": "дзьмуць",
+      "past": "дзьмуў",
+      "past_participle": "падзьмуты"
+    },
+    "examples": [
+      "Blow the wind",
+      "It blew hard",
+      "Have you blown?"
+    ],
+    "example_translations": [
+      "Дзьмі вецер",
+      "Вецер дзьмуў моцна",
+      "Ці дзьмуў ты?"
+    ]
+  },
+  {
+    "infinitive": "wring",
+    "past": "wrung",
+    "past_participle": "wrung",
+    "translation": "выціскаць",
+    "translations": {
+      "infinitive": "выціскаць",
+      "past": "выціскаў",
+      "past_participle": "выціснуты"
+    },
+    "examples": [
+      "Wring out",
+      "He wrung",
+      "Have you wrung?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "lie",
+    "past": "lay",
+    "past_participle": "lain",
+    "translation": "ляжаць",
+    "description": "не блытаць з lay (класці)",
+    "translations": {
+      "infinitive": "ляжаць",
+      "past": "ляжаў",
+      "past_participle": "ляжачы"
+    },
+    "examples": [
+      "Lie down",
+      "He lay on the bed",
+      "Have you lain here?"
+    ],
+    "example_translations": [
+      "Ляж",
+      "Ён ляжаў на ложку",
+      "Ці ляжаў ты тут?"
+    ]
+  },
+  {
+    "infinitive": "teach",
+    "past": "taught",
+    "past_participle": "taught",
+    "translation": "вучыць",
+    "translations": {
+      "infinitive": "вучыць",
+      "past": "вучыў",
+      "past_participle": "навучаны"
+    },
+    "examples": [
+      "Teach English",
+      "She taught me",
+      "Have you taught?"
+    ],
+    "example_translations": [
+      "Вучы англійскую",
+      "Яна вучыла мяне",
+      "Ці вучыў ты?"
+    ]
+  },
+  {
+    "infinitive": "bring about",
+    "past": "brought about",
+    "past_participle": "brought about",
+    "translation": "выклікаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выклікаць",
+      "past": "выклікаў",
+      "past_participle": "выкліканы"
+    },
+    "examples": [
+      "Bring about change",
+      "He brought about",
+      "Have you brought about?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "hide",
+    "past": "hid",
+    "past_participle": "hidden",
+    "translation": "хаваць",
+    "translations": {
+      "infinitive": "хаваць",
+      "past": "хаваў",
+      "past_participle": "схаваны"
+    },
+    "examples": [
+      "Hide here",
+      "She hid it",
+      "Have you hidden?"
+    ],
+    "example_translations": [
+      "Схавайся тут",
+      "Яна схавала гэта",
+      "Ці схаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "stand",
+    "past": "stood",
+    "past_participle": "stood",
+    "translation": "стаяць",
+    "translations": {
+      "infinitive": "стаяць",
+      "past": "стаяў",
+      "past_participle": "стаўшы"
+    },
+    "examples": [
+      "Stand up",
+      "He stood there",
+      "Have you stood?"
+    ],
+    "example_translations": [
+      "Устань",
+      "Ён стаяў там",
+      "Ці стаяў ты?"
+    ]
+  },
+  {
+    "infinitive": "turn on",
+    "past": "turned on",
+    "past_participle": "turned on",
+    "translation": "уключаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "уключаць",
+      "past": "уключыў",
+      "past_participle": "уключаны"
+    },
+    "examples": [
+      "Turn on the light",
+      "He turned on TV",
+      "Have you turned on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "strive",
+    "past": "strove",
+    "past_participle": "striven",
+    "translation": "імкнуцца",
+    "translations": {
+      "infinitive": "імкнуцца",
+      "past": "імкнуўся",
+      "past_participle": "паімкнуўся"
+    },
+    "examples": [
+      "Strive for success",
+      "He strove",
+      "Have you striven?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "call on",
+    "past": "called on",
+    "past_participle": "called on",
+    "translation": "наведваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "наведваць",
+      "past": "наведаў",
+      "past_participle": "наведаны"
+    },
+    "examples": [
+      "Call on friends",
+      "He called on",
+      "Have you called on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "slit",
+    "past": "slit",
+    "past_participle": "slit",
+    "translation": "разрэзаць",
+    "translations": {
+      "infinitive": "разрэзаць",
+      "past": "разрэзаў",
+      "past_participle": "разрэзаны"
+    },
+    "examples": [
+      "Slit open",
+      "He slit",
+      "Have you slit?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "forecast",
+    "past": "forecast",
+    "past_participle": "forecast",
+    "translation": "прагназаваць",
+    "translations": {
+      "infinitive": "прагназаваць",
+      "past": "прагназаваў",
+      "past_participle": "спрагназаваны"
+    },
+    "examples": [
+      "Forecast weather",
+      "They forecast rain",
+      "Have you forecast?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "try on",
+    "past": "tried on",
+    "past_participle": "tried on",
+    "translation": "прамерваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "прамерваць",
+      "past": "прамераў",
+      "past_participle": "прамераны"
+    },
+    "examples": [
+      "Try on clothes",
+      "She tried on",
+      "Have you tried on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "beat",
+    "past": "beat",
+    "past_participle": "beaten",
+    "translation": "біць",
+    "translations": {
+      "infinitive": "біць",
+      "past": "біў",
+      "past_participle": "перабіты"
+    },
+    "examples": [
+      "Beat eggs",
+      "He beat me",
+      "Have you beaten?"
+    ],
+    "example_translations": [
+      "Узбій яйкі",
+      "Ён перабіў мяне",
+      "Ці перабіў ты?"
+    ]
+  },
+  {
+    "infinitive": "hand in",
+    "past": "handed in",
+    "past_participle": "handed in",
+    "translation": "здаваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "здаваць",
+      "past": "здаў",
+      "past_participle": "зданы"
+    },
+    "examples": [
+      "Hand in homework",
+      "He handed in",
+      "Have you handed in?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "bleed",
+    "past": "bled",
+    "past_participle": "bled",
+    "translation": "крывацёчыць",
+    "translations": {
+      "infinitive": "крывацёчыць",
+      "past": "крывацёчыў",
+      "past_participle": "пакрывацёчыўшы"
+    },
+    "examples": [
+      "Bleed heavily",
+      "It bled",
+      "Have you bled?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "set up",
+    "past": "set up",
+    "past_participle": "set up",
+    "translation": "арганізоўваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "арганізоўваць",
+      "past": "арганізаваў",
+      "past_participle": "арганізаваны"
+    },
+    "examples": [
+      "Set up a company",
+      "He set up",
+      "Have you set up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "look up",
+    "past": "looked up",
+    "past_participle": "looked up",
+    "translation": "шукаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "шукаць",
+      "past": "шукаў",
+      "past_participle": "знойдзены"
+    },
+    "examples": [
+      "Look up a word",
+      "He looked up",
+      "Have you looked up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "get away",
+    "past": "got away",
+    "past_participle": "got away",
+    "translation": "уцякаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "уцякаць",
+      "past": "уцёк",
+      "past_participle": "уцёкшы"
+    },
+    "examples": [
+      "Get away from danger",
+      "He got away",
+      "Have you got away?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "wear",
+    "past": "wore",
+    "past_participle": "worn",
+    "translation": "насіць",
+    "translations": {
+      "infinitive": "насіць",
+      "past": "насіў",
+      "past_participle": "надзеты"
+    },
+    "examples": [
+      "Wear a coat",
+      "She wore it",
+      "Have you worn?"
+    ],
+    "example_translations": [
+      "Надзень паліто",
+      "Яна насіла гэта",
+      "Ці насіў ты?"
+    ]
+  },
+  {
+    "infinitive": "shake",
+    "past": "shook",
+    "past_participle": "shaken",
+    "translation": "трасці",
+    "translations": {
+      "infinitive": "трасці",
+      "past": "трас",
+      "past_participle": "страсены"
+    },
+    "examples": [
+      "Shake hands",
+      "He shook it",
+      "Have you shaken?"
+    ],
+    "example_translations": [
+      "Пацісні руку",
+      "Ён страс гэта",
+      "Ці страс ты?"
+    ]
+  },
+  {
+    "infinitive": "stink",
+    "past": "stank",
+    "past_participle": "stunk",
+    "translation": "смердзець",
+    "translations": {
+      "infinitive": "смердзець",
+      "past": "смердзеў",
+      "past_participle": "смердзеўшы"
+    },
+    "examples": [
+      "Stink badly",
+      "It stank",
+      "Have you stunk?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spring",
+    "past": "sprang",
+    "past_participle": "sprung",
+    "translation": "скакаць",
+    "translations": {
+      "infinitive": "скакаць",
+      "past": "скакаў",
+      "past_participle": "скакнуўшы"
+    },
+    "examples": [
+      "Spring forward",
+      "He sprang",
+      "Have you sprung?"
+    ],
+    "example_translations": [
+      "Скачы наперад",
+      "Ён скакаў",
+      "Ці скакаў ты?"
+    ]
+  },
+  {
+    "infinitive": "lead",
+    "past": "led",
+    "past_participle": "led",
+    "translation": "вясці",
+    "translations": {
+      "infinitive": "вясці",
+      "past": "вядзеў",
+      "past_participle": "вядзецца"
+    },
+    "examples": [
+      "Lead the way",
+      "She led us",
+      "Have you led them?"
+    ],
+    "example_translations": [
+      "Вядзі дарогу",
+      "Яна вяла нас",
+      "Ці вёў ты іх?"
+    ]
+  },
+  {
+    "infinitive": "keep",
+    "past": "kept",
+    "past_participle": "kept",
+    "translation": "трымаць",
+    "translations": {
+      "infinitive": "трымаць",
+      "past": "трымаў",
+      "past_participle": "трыманы"
+    },
+    "examples": [
+      "Keep it",
+      "She kept quiet",
+      "Have you kept?"
+    ],
+    "example_translations": [
+      "Трымай гэта",
+      "Яна трымалася ціха",
+      "Ці трымаў ты?"
+    ]
+  },
+  {
+    "infinitive": "show",
+    "past": "showed",
+    "past_participle": "shown",
+    "translation": "паказваць",
+    "translations": {
+      "infinitive": "паказваць",
+      "past": "паказаў",
+      "past_participle": "паказаны"
+    },
+    "examples": [
+      "Show me",
+      "He showed",
+      "Have you shown?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "dive",
+    "past": "dove",
+    "past_participle": "dived",
+    "translation": "ныраць",
+    "translations": {
+      "infinitive": "ныраць",
+      "past": "нырнуў",
+      "past_participle": "нырнуўшы"
+    },
+    "examples": [
+      "Dive deep",
+      "He dove",
+      "Have you dived?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "learn",
+    "past": "learnt",
+    "past_participle": "learnt",
+    "translation": "вучыцца",
+    "translations": {
+      "infinitive": "вучыцца",
+      "past": "вучыўся",
+      "past_participle": "навучыўшыся"
+    },
+    "examples": [
+      "Learn English",
+      "I learnt",
+      "Have you learnt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "cling",
+    "past": "clung",
+    "past_participle": "clung",
+    "translation": "трымацца",
+    "translations": {
+      "infinitive": "трымацца",
+      "past": "трымаўся",
+      "past_participle": "трымаўшыся"
+    },
+    "examples": [
+      "Cling to hope",
+      "She clung",
+      "Have you clung?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spread",
+    "past": "spread",
+    "past_participle": "spread",
+    "translation": "распаўсюджваць",
+    "translations": {
+      "infinitive": "распаўсюджваць",
+      "past": "распаўсюджваў",
+      "past_participle": "распаўсюджаны"
+    },
+    "examples": [
+      "Spread butter",
+      "She spread it",
+      "Have you spread?"
+    ],
+    "example_translations": [
+      "Размаж масла",
+      "Яна распаўсюдзіла гэта",
+      "Ці распаўсюдзіў ты?"
+    ]
+  },
+  {
+    "infinitive": "understand",
+    "past": "understood",
+    "past_participle": "understood",
+    "translation": "разумець",
+    "translations": {
+      "infinitive": "разумець",
+      "past": "разумеў",
+      "past_participle": "зразумелы"
+    },
+    "examples": [
+      "Understand me",
+      "I understood",
+      "Have you understood?"
+    ],
+    "example_translations": [
+      "Зразумей мяне",
+      "Я зразумеў",
+      "Ці зразумеў ты?"
+    ]
+  },
+  {
+    "infinitive": "pay",
+    "past": "paid",
+    "past_participle": "paid",
+    "translation": "плаціць",
+    "translations": {
+      "infinitive": "плаціць",
+      "past": "плаціў",
+      "past_participle": "аплачаны"
+    },
+    "examples": [
+      "Pay the bill",
+      "I paid it",
+      "Have you paid?"
+    ],
+    "example_translations": [
+      "Аплаці рахунак",
+      "Я аплаціў гэта",
+      "Ці аплаціў ты?"
+    ]
+  },
+  {
+    "infinitive": "carry on",
+    "past": "carried on",
+    "past_participle": "carried on",
+    "translation": "працягваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "працягваць",
+      "past": "працягваў",
+      "past_participle": "працягваўшы"
+    },
+    "examples": [
+      "Carry on working",
+      "He carried on",
+      "Have you carried on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "bring up",
+    "past": "brought up",
+    "past_participle": "brought up",
+    "translation": "выхоўваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выхоўваць",
+      "past": "выхаваў",
+      "past_participle": "выхаваны"
+    },
+    "examples": [
+      "Bring up children",
+      "She brought up",
+      "Have you brought up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spill",
+    "past": "spilt",
+    "past_participle": "spilt",
+    "translation": "разліваць",
+    "translations": {
+      "infinitive": "разліваць",
+      "past": "разліў",
+      "past_participle": "разліты"
+    },
+    "examples": [
+      "Spill water",
+      "He spilt",
+      "Have you spilt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "go",
+    "past": "went",
+    "past_participle": "gone",
+    "translation": "ісці",
+    "translations": {
+      "infinitive": "ісці",
+      "past": "пайшоў",
+      "past_participle": "пайшоўшы"
+    },
+    "examples": [
+      "I go to school",
+      "She went home",
+      "They have gone"
+    ],
+    "example_translations": [
+      "Я іду ў школу",
+      "Яна пайшла дадому",
+      "Яны пайшлі"
+    ]
+  },
+  {
+    "infinitive": "spoil",
+    "past": "spoilt",
+    "past_participle": "spoilt",
+    "translation": "псаваць",
+    "translations": {
+      "infinitive": "псаваць",
+      "past": "псаваў",
+      "past_participle": "папсаваны"
+    },
+    "examples": [
+      "Spoil food",
+      "It spoilt",
+      "Have you spoilt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "tell",
+    "past": "told",
+    "past_participle": "told",
+    "translation": "расказваць",
+    "translations": {
+      "infinitive": "расказваць",
+      "past": "расказаў",
+      "past_participle": "расказаны"
+    },
+    "examples": [
+      "Tell me",
+      "She told him",
+      "Have you told?"
+    ],
+    "example_translations": [
+      "Раскажы мне",
+      "Яна расказала яму",
+      "Ці расказаў ты?"
+    ]
+  },
+  {
+    "infinitive": "give in",
+    "past": "gave in",
+    "past_participle": "given in",
+    "translation": "здавацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "здавацца",
+      "past": "здаўся",
+      "past_participle": "здаўшыся"
+    },
+    "examples": [
+      "Give in to pressure",
+      "He gave in",
+      "Have you given in?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "break out",
+    "past": "broke out",
+    "past_participle": "broken out",
+    "translation": "пачынацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "пачынацца",
+      "past": "пачаўся",
+      "past_participle": "пачаўшыся"
+    },
+    "examples": [
+      "Break out war",
+      "War broke out",
+      "Has it broken out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "break down",
+    "past": "broke down",
+    "past_participle": "broken down",
+    "translation": "ламацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "ламацца",
+      "past": "зламаўся",
+      "past_participle": "зламаўшыся"
+    },
+    "examples": [
+      "Break down crying",
+      "He broke down",
+      "Have you broken down?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "give back",
+    "past": "gave back",
+    "past_participle": "given back",
+    "translation": "вяртаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "вяртаць",
+      "past": "вярнуў",
+      "past_participle": "вернуты"
+    },
+    "examples": [
+      "Give back a book",
+      "He gave back",
+      "Have you given back?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "build",
+    "past": "built",
+    "past_participle": "built",
+    "translation": "будаваць",
+    "translations": {
+      "infinitive": "будаваць",
+      "past": "будаваў",
+      "past_participle": "пабудаваны"
+    },
+    "examples": [
+      "Build a house",
+      "They built it",
+      "Have you built?"
+    ],
+    "example_translations": [
+      "Пабудуй дом",
+      "Яны пабудавалі гэта",
+      "Ці пабудаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "freeze",
+    "past": "froze",
+    "past_participle": "frozen",
+    "translation": "замярзаць",
+    "translations": {
+      "infinitive": "замярзаць",
+      "past": "замярзаў",
+      "past_participle": "замёрзлы"
+    },
+    "examples": [
+      "Freeze water",
+      "It froze",
+      "Have you frozen?"
+    ],
+    "example_translations": [
+      "Замярозь ваду",
+      "Гэта замярзла",
+      "Ці замярзаў ты?"
+    ]
+  },
+  {
+    "infinitive": "deal",
+    "past": "dealt",
+    "past_participle": "dealt",
+    "translation": "мець справу",
+    "translations": {
+      "infinitive": "мець справу",
+      "past": "меў справу",
+      "past_participle": "здзеланы"
+    },
+    "examples": [
+      "Deal with it",
+      "He dealt cards",
+      "Have you dealt?"
+    ],
+    "example_translations": [
+      "Разбярыся з гэтым",
+      "Ён раздаваў карты",
+      "Ці раздаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "buy",
+    "past": "bought",
+    "past_participle": "bought",
+    "translation": "купляць",
+    "translations": {
+      "infinitive": "купляць",
+      "past": "купіў",
+      "past_participle": "куплены"
+    },
+    "examples": [
+      "Buy a book",
+      "I bought it",
+      "Have you bought?"
+    ],
+    "example_translations": [
+      "Купі кнігу",
+      "Я купіў гэта",
+      "Ці купіў ты?"
+    ]
+  },
+  {
+    "infinitive": "rise",
+    "past": "rose",
+    "past_participle": "risen",
+    "translation": "паднімацца",
+    "translations": {
+      "infinitive": "паднімацца",
+      "past": "паднімаўся",
+      "past_participle": "падняўшыся"
+    },
+    "examples": [
+      "Rise early",
+      "The sun rose",
+      "Have you risen?"
+    ],
+    "example_translations": [
+      "Уставай рана",
+      "Сонца ўзнялося",
+      "Ці ўзняўся ты?"
+    ]
+  },
+  {
+    "infinitive": "break",
+    "past": "broke",
+    "past_participle": "broken",
+    "translation": "ламаць",
+    "translations": {
+      "infinitive": "ламаць",
+      "past": "ламаў",
+      "past_participle": "зламаны"
+    },
+    "examples": [
+      "Break the glass",
+      "He broke it",
+      "Have you broken?"
+    ],
+    "example_translations": [
+      "Разбій шкло",
+      "Ён зламаў гэта",
+      "Ці зламаў ты?"
+    ]
+  },
+  {
+    "infinitive": "steal",
+    "past": "stole",
+    "past_participle": "stolen",
+    "translation": "красці",
+    "translations": {
+      "infinitive": "красці",
+      "past": "краў",
+      "past_participle": "украдзены"
+    },
+    "examples": [
+      "Don't steal",
+      "He stole money",
+      "Have you stolen?"
+    ],
+    "example_translations": [
+      "Не крадзі",
+      "Ён украў грошы",
+      "Ці украў ты?"
+    ]
+  },
+  {
+    "infinitive": "lose",
+    "past": "lost",
+    "past_participle": "lost",
+    "translation": "губіць",
+    "translations": {
+      "infinitive": "губіць",
+      "past": "губіў",
+      "past_participle": "згублены"
+    },
+    "examples": [
+      "Lose weight",
+      "I lost it",
+      "Have you lost?"
+    ],
+    "example_translations": [
+      "Скінь вагу",
+      "Я згубіў гэта",
+      "Ці згубіў ты?"
+    ]
+  },
+  {
+    "infinitive": "lean",
+    "past": "leant",
+    "past_participle": "leant",
+    "translation": "нахіляцца",
+    "translations": {
+      "infinitive": "нахіляцца",
+      "past": "нахіліўся",
+      "past_participle": "нахіліўшыся"
+    },
+    "examples": [
+      "Lean against",
+      "He leant",
+      "Have you leant?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "take",
+    "past": "took",
+    "past_participle": "taken",
+    "translation": "браць",
+    "translations": {
+      "infinitive": "браць",
+      "past": "браў",
+      "past_participle": "узяты"
+    },
+    "examples": [
+      "Take a book",
+      "I took it",
+      "Have you taken?"
+    ],
+    "example_translations": [
+      "Вазьмі кнігу",
+      "Я ўзяў гэта",
+      "Ці ўзяў ты?"
+    ]
+  },
+  {
+    "infinitive": "creep",
+    "past": "crept",
+    "past_participle": "crept",
+    "translation": "поўзаць",
+    "translations": {
+      "infinitive": "поўзаць",
+      "past": "поўзаў",
+      "past_participle": "папоўзаўшы"
+    },
+    "examples": [
+      "Creep quietly",
+      "He crept",
+      "Have you crept?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "hand out",
+    "past": "handed out",
+    "past_participle": "handed out",
+    "translation": "раздаваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "раздаваць",
+      "past": "раздаў",
+      "past_participle": "разданы"
+    },
+    "examples": [
+      "Hand out papers",
+      "He handed out",
+      "Have you handed out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "put on",
+    "past": "put on",
+    "past_participle": "put on",
+    "translation": "надзяваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "надзяваць",
+      "past": "надзеў",
+      "past_participle": "надзеты"
+    },
+    "examples": [
+      "Put on clothes",
+      "He put on",
+      "Have you put on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "mean",
+    "past": "meant",
+    "past_participle": "meant",
+    "translation": "азначаць",
+    "translations": {
+      "infinitive": "азначаць",
+      "past": "азначаў",
+      "past_participle": "азначаны"
+    },
+    "examples": [
+      "What does it mean?",
+      "I meant it",
+      "Have you meant that?"
+    ],
+    "example_translations": [
+      "Што гэта азначае?",
+      "Я меў гэта на ўвазе",
+      "Ці меў ты гэта на ўвазе?"
+    ]
+  },
+  {
+    "infinitive": "come",
+    "past": "came",
+    "past_participle": "come",
+    "translation": "прыходзіць",
+    "translations": {
+      "infinitive": "прыходзіць",
+      "past": "прыйшоў",
+      "past_participle": "прыйшоўшы"
+    },
+    "examples": [
+      "Come here",
+      "She came yesterday",
+      "They have come"
+    ],
+    "example_translations": [
+      "Прыйдзі сюды",
+      "Яна прыйшла ўчора",
+      "Яны прыйшлі"
+    ]
+  },
+  {
+    "infinitive": "shoot",
+    "past": "shot",
+    "past_participle": "shot",
+    "translation": "страляць",
+    "translations": {
+      "infinitive": "страляць",
+      "past": "страляў",
+      "past_participle": "застрэлены"
+    },
+    "examples": [
+      "Shoot a gun",
+      "He shot",
+      "Have you shot?"
+    ],
+    "example_translations": [
+      "Страляй з стрэльбы",
+      "Ён страляў",
+      "Ці страляў ты?"
+    ]
+  },
+  {
+    "infinitive": "sew",
+    "past": "sewed",
+    "past_participle": "sewn",
+    "translation": "шыць",
+    "translations": {
+      "infinitive": "шыць",
+      "past": "шыў",
+      "past_participle": "пашыты"
+    },
+    "examples": [
+      "Sew a dress",
+      "She sewed",
+      "Have you sewn?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "hurt",
+    "past": "hurt",
+    "past_participle": "hurt",
+    "translation": "рабіць больна",
+    "translations": {
+      "infinitive": "рабіць больна",
+      "past": "рабіў больна",
+      "past_participle": "паранены"
+    },
+    "examples": [
+      "Hurt my leg",
+      "It hurt",
+      "Have you hurt?"
+    ],
+    "example_translations": [
+      "Парані маю нагу",
+      "Гэта балела",
+      "Ці параніў ты?"
+    ]
+  },
+  {
+    "infinitive": "say",
+    "past": "said",
+    "past_participle": "said",
+    "translation": "казаць",
+    "translations": {
+      "infinitive": "казаць",
+      "past": "сказаў",
+      "past_participle": "сказаны"
+    },
+    "examples": [
+      "Say hello",
+      "He said yes",
+      "Have you said?"
+    ],
+    "example_translations": [
+      "Скажы прывітанне",
+      "Ён сказаў так",
+      "Ці сказаў ты?"
+    ]
+  },
+  {
+    "infinitive": "rid",
+    "past": "rid",
+    "past_participle": "rid",
+    "translation": "вызваляць",
+    "translations": {
+      "infinitive": "вызваляць",
+      "past": "вызваліў",
+      "past_participle": "вызвалены"
+    },
+    "examples": [
+      "Rid of pests",
+      "He rid",
+      "Have you rid?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "lend",
+    "past": "lent",
+    "past_participle": "lent",
+    "translation": "пазычаць",
+    "translations": {
+      "infinitive": "пазычаць",
+      "past": "пазычыў",
+      "past_participle": "пазычаны"
+    },
+    "examples": [
+      "Lend money",
+      "He lent it",
+      "Have you lent?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "quit",
+    "past": "quit",
+    "past_participle": "quit",
+    "translation": "кідаць",
+    "translations": {
+      "infinitive": "кідаць",
+      "past": "кінуў",
+      "past_participle": "кінуты"
+    },
+    "examples": [
+      "Quit smoking",
+      "He quit",
+      "Have you quit?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "fight",
+    "past": "fought",
+    "past_participle": "fought",
+    "translation": "змагацца",
+    "translations": {
+      "infinitive": "змагацца",
+      "past": "змагаўся",
+      "past_participle": "змагаўшыся"
+    },
+    "examples": [
+      "Fight for rights",
+      "They fought",
+      "Have you fought?"
+    ],
+    "example_translations": [
+      "Змагайся за правы",
+      "Яны змагаліся",
+      "Ці змагаўся ты?"
+    ]
+  },
+  {
+    "infinitive": "withstand",
+    "past": "withstood",
+    "past_participle": "withstood",
+    "translation": "вытрымліваць",
+    "translations": {
+      "infinitive": "вытрымліваць",
+      "past": "вытрымаў",
+      "past_participle": "вытрыманы"
+    },
+    "examples": [
+      "Withstand pressure",
+      "He withstood",
+      "Have you withstood?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "run out",
+    "past": "ran out",
+    "past_participle": "run out",
+    "translation": "заканчвацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "заканчвацца",
+      "past": "скончыўся",
+      "past_participle": "скончыўшыся"
+    },
+    "examples": [
+      "Run out of time",
+      "Time ran out",
+      "Has it run out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "breed",
+    "past": "bred",
+    "past_participle": "bred",
+    "translation": "разводзіць",
+    "translations": {
+      "infinitive": "разводзіць",
+      "past": "разводзіў",
+      "past_participle": "разведзены"
+    },
+    "examples": [
+      "Breed dogs",
+      "He bred horses",
+      "Have you bred?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "hold on",
+    "past": "held on",
+    "past_participle": "held on",
+    "translation": "трымацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "трымацца",
+      "past": "трымаўся",
+      "past_participle": "трымаўшыся"
+    },
+    "examples": [
+      "Hold on tight",
+      "He held on",
+      "Have you held on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "choose",
+    "past": "chose",
+    "past_participle": "chosen",
+    "translation": "выбіраць",
+    "translations": {
+      "infinitive": "выбіраць",
+      "past": "выбіраў",
+      "past_participle": "абраны"
+    },
+    "examples": [
+      "Choose one",
+      "I chose it",
+      "Have you chosen?"
+    ],
+    "example_translations": [
+      "Выбяры адзін",
+      "Я выбраў гэта",
+      "Ці выбраў ты?"
+    ]
+  },
+  {
+    "infinitive": "smite",
+    "past": "smote",
+    "past_participle": "smitten",
+    "translation": "біць",
+    "translations": {
+      "infinitive": "біць",
+      "past": "біў",
+      "past_participle": "перабіты"
+    },
+    "examples": [
+      "Smite enemies",
+      "He smote",
+      "Have you smitten?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "turn off",
+    "past": "turned off",
+    "past_participle": "turned off",
+    "translation": "выключаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выключаць",
+      "past": "выключыў",
+      "past_participle": "выключаны"
+    },
+    "examples": [
+      "Turn off the TV",
+      "She turned off",
+      "Have you turned off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "look forward to",
+    "past": "looked forward to",
+    "past_participle": "looked forward to",
+    "translation": "чакаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "чакаць",
+      "past": "чакаў",
+      "past_participle": "пачакаўшы"
+    },
+    "examples": [
+      "Look forward to meeting",
+      "I looked forward",
+      "Have you looked forward?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "light",
+    "past": "lit",
+    "past_participle": "lit",
+    "translation": "асвятляць",
+    "translations": {
+      "infinitive": "асвятляць",
+      "past": "асвятляў",
+      "past_participle": "асветлены"
+    },
+    "examples": [
+      "Light a candle",
+      "He lit the fire",
+      "Have you lit it?"
+    ],
+    "example_translations": [
+      "Запалі свечку",
+      "Ён запаліў агонь",
+      "Ці запаліў ты гэта?"
+    ]
+  },
+  {
+    "infinitive": "leap",
+    "past": "leapt",
+    "past_participle": "leapt",
+    "translation": "скакаць",
+    "translations": {
+      "infinitive": "скакаць",
+      "past": "скакаў",
+      "past_participle": "скакнуўшы"
+    },
+    "examples": [
+      "Leap high",
+      "He leapt",
+      "Have you leapt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "feel",
+    "past": "felt",
+    "past_participle": "felt",
+    "translation": "адчуваць",
+    "translations": {
+      "infinitive": "адчуваць",
+      "past": "адчуў",
+      "past_participle": "адчуты"
+    },
+    "examples": [
+      "Feel good",
+      "I felt cold",
+      "Have you felt?"
+    ],
+    "example_translations": [
+      "Адчувай сябе добра",
+      "Я адчуў холад",
+      "Ці адчуў ты?"
+    ]
+  },
+  {
+    "infinitive": "swell",
+    "past": "swelled",
+    "past_participle": "swollen",
+    "translation": "пухнуць",
+    "translations": {
+      "infinitive": "пухнуць",
+      "past": "пух",
+      "past_participle": "распухшы"
+    },
+    "examples": [
+      "Swell up",
+      "It swelled",
+      "Have you swollen?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "shut",
+    "past": "shut",
+    "past_participle": "shut",
+    "translation": "зачыняць",
+    "translations": {
+      "infinitive": "зачыняць",
+      "past": "зачыняў",
+      "past_participle": "зачынены"
+    },
+    "examples": [
+      "Shut the door",
+      "She shut it",
+      "Have you shut?"
+    ],
+    "example_translations": [
+      "Зачыні дзверы",
+      "Яна зачыніла гэта",
+      "Ці зачыніў ты?"
+    ]
+  },
+  {
+    "infinitive": "cut off",
+    "past": "cut off",
+    "past_participle": "cut off",
+    "translation": "адрэзаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "адрэзаць",
+      "past": "адрэзаў",
+      "past_participle": "адрэзаны"
+    },
+    "examples": [
+      "Cut off power",
+      "He cut off",
+      "Have you cut off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "get along",
+    "past": "got along",
+    "past_participle": "got along",
+    "translation": "ладзіць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "ладзіць",
+      "past": "ладзіў",
+      "past_participle": "паладзіўшы"
+    },
+    "examples": [
+      "Get along well",
+      "They got along",
+      "Have you got along?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "swear",
+    "past": "swore",
+    "past_participle": "sworn",
+    "translation": "клясціся",
+    "translations": {
+      "infinitive": "клясціся",
+      "past": "кляўся",
+      "past_participle": "пакляўся"
+    },
+    "examples": [
+      "Swear an oath",
+      "He swore",
+      "Have you sworn?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "know",
+    "past": "knew",
+    "past_participle": "known",
+    "translation": "ведаць",
+    "translations": {
+      "infinitive": "ведаць",
+      "past": "ведаў",
+      "past_participle": "вядомы"
+    },
+    "examples": [
+      "I know him",
+      "She knew the answer",
+      "Have you known?"
+    ],
+    "example_translations": [
+      "Я ведаю яго",
+      "Яна ведала адказ",
+      "Ці ведаў ты?"
+    ]
+  },
+  {
+    "infinitive": "look for",
+    "past": "looked for",
+    "past_participle": "looked for",
+    "translation": "шукаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "шукаць",
+      "past": "шукаў",
+      "past_participle": "знойдзены"
+    },
+    "examples": [
+      "Look for keys",
+      "I looked for",
+      "Have you looked for?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "stick",
+    "past": "stuck",
+    "past_participle": "stuck",
+    "translation": "прыклеіваць",
+    "translations": {
+      "infinitive": "прыклеіваць",
+      "past": "прыклеіваў",
+      "past_participle": "прыклеены"
+    },
+    "examples": [
+      "Stick a stamp",
+      "It stuck",
+      "Have you stuck?"
+    ],
+    "example_translations": [
+      "Прыклей марку",
+      "Гэта прыклеілася",
+      "Ці прыклеіў ты?"
+    ]
+  },
+  {
+    "infinitive": "get off",
+    "past": "got off",
+    "past_participle": "got off",
+    "translation": "выходзіць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выходзіць",
+      "past": "выйшаў",
+      "past_participle": "выйшаўшы"
+    },
+    "examples": [
+      "Get off the bus",
+      "He got off",
+      "Have you got off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "set",
+    "past": "set",
+    "past_participle": "set",
+    "translation": "усталёўваць",
+    "translations": {
+      "infinitive": "усталёўваць",
+      "past": "усталяваў",
+      "past_participle": "усталяваны"
+    },
+    "examples": [
+      "Set the table",
+      "He set the clock",
+      "Have you set it?"
+    ],
+    "example_translations": [
+      "Накрый стол",
+      "Ён усталяваў гадзіннік",
+      "Ці усталяваў ты гэта?"
+    ]
+  },
+  {
+    "infinitive": "seek",
+    "past": "sought",
+    "past_participle": "sought",
+    "translation": "шукаць",
+    "translations": {
+      "infinitive": "шукаць",
+      "past": "шукаў",
+      "past_participle": "знойдзены"
+    },
+    "examples": [
+      "Seek help",
+      "He sought it",
+      "Have you sought?"
+    ],
+    "example_translations": [
+      "Шукай дапамогу",
+      "Ён шукаў гэта",
+      "Ці шукаў ты?"
+    ]
+  },
+  {
+    "infinitive": "get",
+    "past": "got",
+    "past_participle": "got",
+    "translation": "атрымліваць",
+    "description": "мае некалькі значэнняў",
+    "translations": {
+      "infinitive": "атрымліваць",
+      "past": "атрымаў",
+      "past_participle": "атрыманы"
+    },
+    "examples": [
+      "Get a book",
+      "I got a letter",
+      "Have you got it?"
+    ],
+    "example_translations": [
+      "Атрымай кнігу",
+      "Я атрымаў ліст",
+      "Ці атрымаў ты гэта?"
+    ]
+  },
+  {
+    "infinitive": "get on",
+    "past": "got on",
+    "past_participle": "got on",
+    "translation": "садзіцца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "садзіцца",
+      "past": "сеў",
+      "past_participle": "сеўшы"
+    },
+    "examples": [
+      "Get on a bus",
+      "He got on",
+      "Have you got on?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "find",
+    "past": "found",
+    "past_participle": "found",
+    "translation": "знаходзіць",
+    "translations": {
+      "infinitive": "знаходзіць",
+      "past": "знайшоў",
+      "past_participle": "знойдзены"
+    },
+    "examples": [
+      "Find the key",
+      "I found it",
+      "Have you found?"
+    ],
+    "example_translations": [
+      "Знайдзі ключ",
+      "Я знайшоў гэта",
+      "Ці знайшоў ты?"
+    ]
+  },
+  {
+    "infinitive": "undergo",
+    "past": "underwent",
+    "past_participle": "undergone",
+    "translation": "праходзіць",
+    "translations": {
+      "infinitive": "праходзіць",
+      "past": "прайшоў",
+      "past_participle": "прайшоўшы"
+    },
+    "examples": [
+      "Undergo surgery",
+      "He underwent",
+      "Have you undergone?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spit",
+    "past": "spat",
+    "past_participle": "spat",
+    "translation": "пляваць",
+    "translations": {
+      "infinitive": "пляваць",
+      "past": "плюнуў",
+      "past_participle": "плюнуўшы"
+    },
+    "examples": [
+      "Spit out",
+      "He spat",
+      "Have you spat?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "feed",
+    "past": "fed",
+    "past_participle": "fed",
+    "translation": "карміць",
+    "translations": {
+      "infinitive": "карміць",
+      "past": "карміў",
+      "past_participle": "накормлены"
+    },
+    "examples": [
+      "Feed the cat",
+      "I fed it",
+      "Have you fed?"
+    ],
+    "example_translations": [
+      "Накормі ката",
+      "Я накарміў яго",
+      "Ці накарміў ты?"
+    ]
+  },
+  {
+    "infinitive": "run into",
+    "past": "ran into",
+    "past_participle": "run into",
+    "translation": "сустрэцца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "сустрэцца",
+      "past": "сустрэўся",
+      "past_participle": "сустрэўшыся"
+    },
+    "examples": [
+      "Run into a friend",
+      "I ran into",
+      "Have you run into?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "hear",
+    "past": "heard",
+    "past_participle": "heard",
+    "translation": "чуць",
+    "translations": {
+      "infinitive": "чуць",
+      "past": "чуў",
+      "past_participle": "чуты"
+    },
+    "examples": [
+      "Hear me",
+      "I heard it",
+      "Have you heard?"
+    ],
+    "example_translations": [
+      "Пачуй мяне",
+      "Я чуў гэта",
+      "Ці чуў ты?"
+    ]
+  },
+  {
+    "infinitive": "strike",
+    "past": "struck",
+    "past_participle": "struck",
+    "translation": "біць",
+    "translations": {
+      "infinitive": "біць",
+      "past": "біў",
+      "past_participle": "удараны"
+    },
+    "examples": [
+      "Strike a match",
+      "He struck me",
+      "Have you struck?"
+    ],
+    "example_translations": [
+      "Запалі запалку",
+      "Ён ударыў мяне",
+      "Ці ударыў ты?"
+    ]
+  },
+  {
+    "infinitive": "bind",
+    "past": "bound",
+    "past_participle": "bound",
+    "translation": "звязваць",
+    "translations": {
+      "infinitive": "звязваць",
+      "past": "звязаў",
+      "past_participle": "звязаны"
+    },
+    "examples": [
+      "Bind the book",
+      "He bound it",
+      "Have you bound?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "let",
+    "past": "let",
+    "past_participle": "let",
+    "translation": "дазваляць",
+    "translations": {
+      "infinitive": "дазваляць",
+      "past": "дазволіў",
+      "past_participle": "дазволены"
+    },
+    "examples": [
+      "Let me go",
+      "She let him in",
+      "Have you let them?"
+    ],
+    "example_translations": [
+      "Дазволь мне пайсці",
+      "Яна дазволіла яму ўвайсці",
+      "Ці дазволіў ты ім?"
+    ]
+  },
+  {
+    "infinitive": "write",
+    "past": "wrote",
+    "past_participle": "written",
+    "translation": "пісаць",
+    "translations": {
+      "infinitive": "пісаць",
+      "past": "пісаў",
+      "past_participle": "напісаны"
+    },
+    "examples": [
+      "Write a letter",
+      "I wrote it",
+      "Have you written?"
+    ],
+    "example_translations": [
+      "Напішы ліст",
+      "Я напісаў гэта",
+      "Ці напісаў ты?"
+    ]
+  },
+  {
+    "infinitive": "fill out",
+    "past": "filled out",
+    "past_participle": "filled out",
+    "translation": "запаўняць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "запаўняць",
+      "past": "запоўніў",
+      "past_participle": "запоўнены"
+    },
+    "examples": [
+      "Fill out a form",
+      "He filled out",
+      "Have you filled out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "fill in",
+    "past": "filled in",
+    "past_participle": "filled in",
+    "translation": "запаўняць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "запаўняць",
+      "past": "запоўніў",
+      "past_participle": "запоўнены"
+    },
+    "examples": [
+      "Fill in a form",
+      "He filled in",
+      "Have you filled in?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "stride",
+    "past": "strode",
+    "past_participle": "stridden",
+    "translation": "крокаваць",
+    "translations": {
+      "infinitive": "крокаваць",
+      "past": "крокаваў",
+      "past_participle": "крокаваўшы"
+    },
+    "examples": [
+      "Stride forward",
+      "He strode",
+      "Have you stridden?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "overcome",
+    "past": "overcame",
+    "past_participle": "overcome",
+    "translation": "пераадолеваць",
+    "translations": {
+      "infinitive": "пераадолеваць",
+      "past": "пераадолеў",
+      "past_participle": "пераадолены"
+    },
+    "examples": [
+      "Overcome fear",
+      "He overcame",
+      "Have you overcome?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "forget",
+    "past": "forgot",
+    "past_participle": "forgotten",
+    "translation": "забываць",
+    "translations": {
+      "infinitive": "забываць",
+      "past": "забываў",
+      "past_participle": "забыты"
+    },
+    "examples": [
+      "Forget it",
+      "I forgot",
+      "Have you forgotten?"
+    ],
+    "example_translations": [
+      "Забудзь гэта",
+      "Я забыў",
+      "Ці забыў ты?"
+    ]
+  },
+  {
+    "infinitive": "wind",
+    "past": "wound",
+    "past_participle": "wound",
+    "translation": "закручваць",
+    "description": "не блытаць з wind (вецер)",
+    "translations": {
+      "infinitive": "закручваць",
+      "past": "закручваў",
+      "past_participle": "закручаны"
+    },
+    "examples": [
+      "Wind the clock",
+      "He wound it up",
+      "Have you wound?"
+    ],
+    "example_translations": [
+      "Завядзі гадзіннік",
+      "Ён завёў гэта",
+      "Ці завёў ты?"
+    ]
+  },
+  {
+    "infinitive": "read",
+    "past": "read",
+    "past_participle": "read",
+    "translation": "чытаць",
+    "description": "вымаўленне змяняецца",
+    "translations": {
+      "infinitive": "чытаць",
+      "past": "чытаў",
+      "past_participle": "прачытаны"
+    },
+    "examples": [
+      "Read a book",
+      "I read it",
+      "Have you read?"
+    ],
+    "example_translations": [
+      "Чытай кнігу",
+      "Я чытаў гэта",
+      "Ці чытаў ты?"
+    ]
+  },
+  {
+    "infinitive": "flee",
+    "past": "fled",
+    "past_participle": "fled",
+    "translation": "уцякаць",
+    "translations": {
+      "infinitive": "уцякаць",
+      "past": "уцёк",
+      "past_participle": "уцёкшы"
+    },
+    "examples": [
+      "Flee danger",
+      "They fled",
+      "Have you fled?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "sit",
+    "past": "sat",
+    "past_participle": "sat",
+    "translation": "сядзець",
+    "translations": {
+      "infinitive": "сядзець",
+      "past": "сядзеў",
+      "past_participle": "седзячы"
+    },
+    "examples": [
+      "Sit down",
+      "She sat here",
+      "Have you sat?"
+    ],
+    "example_translations": [
+      "Сядай",
+      "Яна сядзела тут",
+      "Ці сядзеў ты?"
+    ]
+  },
+  {
+    "infinitive": "cut down",
+    "past": "cut down",
+    "past_participle": "cut down",
+    "translation": "скарачаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "скарачаць",
+      "past": "скараціў",
+      "past_participle": "скарочаны"
+    },
+    "examples": [
+      "Cut down trees",
+      "He cut down",
+      "Have you cut down?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "make up",
+    "past": "made up",
+    "past_participle": "made up",
+    "translation": "выдумляць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выдумляць",
+      "past": "выдумаў",
+      "past_participle": "выдуманы"
+    },
+    "examples": [
+      "Make up a story",
+      "He made up",
+      "Have you made up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "begin",
+    "past": "began",
+    "past_participle": "begun",
+    "translation": "пачынаць",
+    "translations": {
+      "infinitive": "пачынаць",
+      "past": "пачаў",
+      "past_participle": "пачаты"
+    },
+    "examples": [
+      "Begin now",
+      "It began",
+      "Have you begun?"
+    ],
+    "example_translations": [
+      "Пачні зараз",
+      "Гэта пачалося",
+      "Ці пачаў ты?"
+    ]
+  },
+  {
+    "infinitive": "sow",
+    "past": "sowed",
+    "past_participle": "sown",
+    "translation": "сеяць",
+    "translations": {
+      "infinitive": "сеяць",
+      "past": "сеяў",
+      "past_participle": "пасеяны"
+    },
+    "examples": [
+      "Sow seeds",
+      "He sowed",
+      "Have you sown?"
+    ],
+    "example_translations": [
+      "Сей насенне",
+      "Ён сеяў",
+      "Ці сеяў ты?"
+    ]
+  },
+  {
+    "infinitive": "take care of",
+    "past": "took care of",
+    "past_participle": "taken care of",
+    "translation": "даглядаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "даглядаць",
+      "past": "даглядаў",
+      "past_participle": "даглядаўшы"
+    },
+    "examples": [
+      "Take care of children",
+      "She took care",
+      "Have you taken care?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spin",
+    "past": "spun",
+    "past_participle": "spun",
+    "translation": "круціць",
+    "translations": {
+      "infinitive": "круціць",
+      "past": "круціў",
+      "past_participle": "пакручаны"
+    },
+    "examples": [
+      "Spin a wheel",
+      "He spun",
+      "Have you spun?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "find out",
+    "past": "found out",
+    "past_participle": "found out",
+    "translation": "даведацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "даведацца",
+      "past": "даведаўся",
+      "past_participle": "даведаўшыся"
+    },
+    "examples": [
+      "Find out the truth",
+      "I found out",
+      "Have you found out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "break up",
+    "past": "broke up",
+    "past_participle": "broken up",
+    "translation": "расставацца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "расставацца",
+      "past": "расстаўся",
+      "past_participle": "расстаўшыся"
+    },
+    "examples": [
+      "Break up with someone",
+      "They broke up",
+      "Have you broken up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "throw",
+    "past": "threw",
+    "past_participle": "thrown",
+    "translation": "кідаць",
+    "translations": {
+      "infinitive": "кідаць",
+      "past": "кідаў",
+      "past_participle": "кінуты"
+    },
+    "examples": [
+      "Throw a ball",
+      "She threw it",
+      "Have you thrown?"
+    ],
+    "example_translations": [
+      "Кінь мяч",
+      "Яна кінула гэта",
+      "Ці кінуў ты?"
+    ]
+  },
+  {
+    "infinitive": "burn",
+    "past": "burnt",
+    "past_participle": "burnt",
+    "translation": "гарэць",
+    "translations": {
+      "infinitive": "гарэць",
+      "past": "гарэў",
+      "past_participle": "згарэлы"
+    },
+    "examples": [
+      "Burn wood",
+      "It burnt",
+      "Have you burnt?"
+    ],
+    "example_translations": [
+      "Спалі дрэва",
+      "Гэта гарэла",
+      "Ці гарэў ты?"
+    ]
+  },
+  {
+    "infinitive": "put up",
+    "past": "put up",
+    "past_participle": "put up",
+    "translation": "ставіць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "ставіць",
+      "past": "паставіў",
+      "past_participle": "пастаўлены"
+    },
+    "examples": [
+      "Put up a tent",
+      "He put up",
+      "Have you put up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spend",
+    "past": "spent",
+    "past_participle": "spent",
+    "translation": "выдаткоўваць",
+    "translations": {
+      "infinitive": "выдаткоўваць",
+      "past": "выдаткаваў",
+      "past_participle": "выдаткаваны"
+    },
+    "examples": [
+      "Spend money",
+      "I spent it",
+      "Have you spent?"
+    ],
+    "example_translations": [
+      "Выдаткуй грошы",
+      "Я выдаткаваў гэта",
+      "Ці выдаткаваў ты?"
+    ]
+  },
+  {
+    "infinitive": "kneel",
+    "past": "knelt",
+    "past_participle": "knelt",
+    "translation": "станавіцца на калені",
+    "translations": {
+      "infinitive": "станавіцца на калені",
+      "past": "стаў на калені",
+      "past_participle": "стаўшы на калені"
+    },
+    "examples": [
+      "Kneel down",
+      "He knelt",
+      "Have you knelt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "wake",
+    "past": "woke",
+    "past_participle": "woken",
+    "translation": "будзіць",
+    "translations": {
+      "infinitive": "будзіць",
+      "past": "будзіў",
+      "past_participle": "разбуджаны"
+    },
+    "examples": [
+      "Wake up",
+      "I woke early",
+      "Have you woken?"
+    ],
+    "example_translations": [
+      "Прачніся",
+      "Я прачнуўся рана",
+      "Ці прачнуўся ты?"
+    ]
+  },
+  {
+    "infinitive": "figure out",
+    "past": "figured out",
+    "past_participle": "figured out",
+    "translation": "зразумець",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "зразумець",
+      "past": "зразумеў",
+      "past_participle": "зразумеўшы"
+    },
+    "examples": [
+      "Figure out a problem",
+      "He figured out",
+      "Have you figured out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "leave",
+    "past": "left",
+    "past_participle": "left",
+    "translation": "пакідаць",
+    "translations": {
+      "infinitive": "пакідаць",
+      "past": "пакінуў",
+      "past_participle": "пакінуты"
+    },
+    "examples": [
+      "Leave now",
+      "She left home",
+      "Have you left?"
+    ],
+    "example_translations": [
+      "Пакінь зараз",
+      "Яна пакінула дом",
+      "Ці пакінуў ты?"
+    ]
+  },
+  {
+    "infinitive": "shear",
+    "past": "sheared",
+    "past_participle": "shorn",
+    "translation": "стрыгчы",
+    "translations": {
+      "infinitive": "стрыгчы",
+      "past": "стрыг",
+      "past_participle": "пастрыжаны"
+    },
+    "examples": [
+      "Shear sheep",
+      "He sheared",
+      "Have you shorn?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "slay",
+    "past": "slew",
+    "past_participle": "slain",
+    "translation": "забіваць",
+    "translations": {
+      "infinitive": "забіваць",
+      "past": "забіў",
+      "past_participle": "забіты"
+    },
+    "examples": [
+      "Slay a dragon",
+      "He slew",
+      "Have you slain?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "mow",
+    "past": "mowed",
+    "past_participle": "mown",
+    "translation": "касіць",
+    "translations": {
+      "infinitive": "касіць",
+      "past": "касіў",
+      "past_participle": "скашаны"
+    },
+    "examples": [
+      "Mow the lawn",
+      "He mowed",
+      "Have you mown?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "spell",
+    "past": "spelt",
+    "past_participle": "spelt",
+    "translation": "прапісваць",
+    "translations": {
+      "infinitive": "прапісваць",
+      "past": "прапісаў",
+      "past_participle": "прапісаны"
+    },
+    "examples": [
+      "Spell a word",
+      "He spelt",
+      "Have you spelt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "fall",
+    "past": "fell",
+    "past_participle": "fallen",
+    "translation": "падаць",
+    "translations": {
+      "infinitive": "падаць",
+      "past": "падаў",
+      "past_participle": "упаўшы"
+    },
+    "examples": [
+      "Fall down",
+      "She fell",
+      "Have you fallen?"
+    ],
+    "example_translations": [
+      "Упадзі",
+      "Яна ўпала",
+      "Ці ўпаў ты?"
+    ]
+  },
+  {
+    "infinitive": "fling",
+    "past": "flung",
+    "past_participle": "flung",
+    "translation": "кідаць",
+    "translations": {
+      "infinitive": "кідаць",
+      "past": "кінуў",
+      "past_participle": "кінуты"
+    },
+    "examples": [
+      "Fling a stone",
+      "He flung it",
+      "Have you flung?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "sling",
+    "past": "slung",
+    "past_participle": "slung",
+    "translation": "кідаць",
+    "translations": {
+      "infinitive": "кідаць",
+      "past": "кінуў",
+      "past_participle": "кінуты"
+    },
+    "examples": [
+      "Sling a bag",
+      "He slung",
+      "Have you slung?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "bite",
+    "past": "bit",
+    "past_participle": "bitten",
+    "translation": "кусаць",
+    "translations": {
+      "infinitive": "кусаць",
+      "past": "кусаў",
+      "past_participle": "укушаны"
+    },
+    "examples": [
+      "Bite an apple",
+      "The dog bit",
+      "Have you bitten?"
+    ],
+    "example_translations": [
+      "Укусі яблык",
+      "Сабака ўкусіў",
+      "Ці ўкусіў ты?"
+    ]
+  },
+  {
+    "infinitive": "grow",
+    "past": "grew",
+    "past_participle": "grown",
+    "translation": "расці",
+    "translations": {
+      "infinitive": "расці",
+      "past": "расло",
+      "past_participle": "вырасшы"
+    },
+    "examples": [
+      "Grow flowers",
+      "It grew fast",
+      "Have you grown?"
+    ],
+    "example_translations": [
+      "Вырошчвай кветкі",
+      "Гэта расло хутка",
+      "Ці рас ты?"
+    ]
+  },
+  {
+    "infinitive": "give away",
+    "past": "gave away",
+    "past_participle": "given away",
+    "translation": "аддаваць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "аддаваць",
+      "past": "аддаў",
+      "past_participle": "адданы"
+    },
+    "examples": [
+      "Give away money",
+      "He gave away",
+      "Have you given away?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "overtake",
+    "past": "overtook",
+    "past_participle": "overtaken",
+    "translation": "абганяць",
+    "translations": {
+      "infinitive": "абганяць",
+      "past": "абгнаў",
+      "past_participle": "абгнаты"
+    },
+    "examples": [
+      "Overtake a car",
+      "He overtook",
+      "Have you overtaken?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "see",
+    "past": "saw",
+    "past_participle": "seen",
+    "translation": "бачыць",
+    "translations": {
+      "infinitive": "бачыць",
+      "past": "убачыў",
+      "past_participle": "убачаны"
+    },
+    "examples": [
+      "I see you",
+      "He saw a bird",
+      "Have you seen it?"
+    ],
+    "example_translations": [
+      "Я бачу цябе",
+      "Ён убачыў птушку",
+      "Ці бачыў ты гэта?"
+    ]
+  },
+  {
+    "infinitive": "dwell",
+    "past": "dwelt",
+    "past_participle": "dwelt",
+    "translation": "жыць",
+    "translations": {
+      "infinitive": "жыць",
+      "past": "жыў",
+      "past_participle": "пажыўшы"
+    },
+    "examples": [
+      "Dwell here",
+      "He dwelt",
+      "Have you dwelt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "speak",
+    "past": "spoke",
+    "past_participle": "spoken",
+    "translation": "гаварыць",
+    "translations": {
+      "infinitive": "гаварыць",
+      "past": "гаварыў",
+      "past_participle": "сказаны"
+    },
+    "examples": [
+      "Speak English",
+      "He spoke",
+      "Have you spoken?"
+    ],
+    "example_translations": [
+      "Гавары па-англійску",
+      "Ён гаварыў",
+      "Ці гаварыў ты?"
+    ]
+  },
+  {
+    "infinitive": "bear",
+    "past": "bore",
+    "past_participle": "borne",
+    "translation": "несці",
+    "translations": {
+      "infinitive": "несці",
+      "past": "нёс",
+      "past_participle": "панесены"
+    },
+    "examples": [
+      "Bear the weight",
+      "He bore it",
+      "Have you borne?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "bring",
+    "past": "brought",
+    "past_participle": "brought",
+    "translation": "прыносіць",
+    "translations": {
+      "infinitive": "прыносіць",
+      "past": "прынёс",
+      "past_participle": "прынесены"
+    },
+    "examples": [
+      "Bring a book",
+      "He brought it",
+      "Have you brought?"
+    ],
+    "example_translations": [
+      "Прынясі кнігу",
+      "Ён прынёс гэта",
+      "Ці прынёс ты?"
+    ]
+  },
+  {
+    "infinitive": "hold",
+    "past": "held",
+    "past_participle": "held",
+    "translation": "трымаць",
+    "translations": {
+      "infinitive": "трымаць",
+      "past": "трымаў",
+      "past_participle": "трыманы"
+    },
+    "examples": [
+      "Hold my hand",
+      "He held it",
+      "Have you held?"
+    ],
+    "example_translations": [
+      "Трымай маю руку",
+      "Ён трымаў гэта",
+      "Ці трымаў ты?"
+    ]
+  },
+  {
+    "infinitive": "tear",
+    "past": "tore",
+    "past_participle": "torn",
+    "translation": "рваць",
+    "translations": {
+      "infinitive": "рваць",
+      "past": "рваў",
+      "past_participle": "парваны"
+    },
+    "examples": [
+      "Tear paper",
+      "He tore it",
+      "Have you torn?"
+    ],
+    "example_translations": [
+      "Парві паперу",
+      "Ён парваў гэта",
+      "Ці парваў ты?"
+    ]
+  },
+  {
+    "infinitive": "go out",
+    "past": "went out",
+    "past_participle": "gone out",
+    "translation": "выходзіць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "выходзіць",
+      "past": "выйшаў",
+      "past_participle": "выйшаўшы"
+    },
+    "examples": [
+      "Go out for dinner",
+      "They went out",
+      "Have you gone out?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "wet",
+    "past": "wet",
+    "past_participle": "wet",
+    "translation": "мокрыць",
+    "translations": {
+      "infinitive": "мокрыць",
+      "past": "мокрыў",
+      "past_participle": "намокрыўшы"
+    },
+    "examples": [
+      "Wet the cloth",
+      "He wet",
+      "Have you wet?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "prove",
+    "past": "proved",
+    "past_participle": "proven",
+    "translation": "даказваць",
+    "translations": {
+      "infinitive": "даказваць",
+      "past": "даказаў",
+      "past_participle": "даказаны"
+    },
+    "examples": [
+      "Prove it",
+      "He proved",
+      "Have you proven?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "sink",
+    "past": "sank",
+    "past_participle": "sunk",
+    "translation": "тануць",
+    "translations": {
+      "infinitive": "тануць",
+      "past": "тануў",
+      "past_participle": "патануўшы"
+    },
+    "examples": [
+      "Sink in water",
+      "It sank",
+      "Have you sunk?"
+    ],
+    "example_translations": [
+      "Тані ў вадзе",
+      "Гэта патанула",
+      "Ці патануў ты?"
+    ]
+  },
+  {
+    "infinitive": "sweep",
+    "past": "swept",
+    "past_participle": "swept",
+    "translation": "падмятаць",
+    "translations": {
+      "infinitive": "падмятаць",
+      "past": "падмятаў",
+      "past_participle": "падмецены"
+    },
+    "examples": [
+      "Sweep the floor",
+      "She swept",
+      "Have you swept?"
+    ],
+    "example_translations": [
+      "Падмі падлогу",
+      "Яна падмятала",
+      "Ці падмятаў ты?"
+    ]
+  },
+  {
+    "infinitive": "run",
+    "past": "ran",
+    "past_participle": "run",
+    "translation": "бегчы",
+    "translations": {
+      "infinitive": "бегчы",
+      "past": "бегаў",
+      "past_participle": "пабегшы"
+    },
+    "examples": [
+      "Run fast",
+      "She ran away",
+      "Have you run?"
+    ],
+    "example_translations": [
+      "Бяжы хутка",
+      "Яна ўцякла",
+      "Ці бегаў ты?"
+    ]
+  },
+  {
+    "infinitive": "split",
+    "past": "split",
+    "past_participle": "split",
+    "translation": "раскалоць",
+    "translations": {
+      "infinitive": "раскалоць",
+      "past": "раскалоў",
+      "past_participle": "раскалоўшы"
+    },
+    "examples": [
+      "Split wood",
+      "He split",
+      "Have you split?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "send",
+    "past": "sent",
+    "past_participle": "sent",
+    "translation": "адпраўляць",
+    "translations": {
+      "infinitive": "адпраўляць",
+      "past": "адправіў",
+      "past_participle": "адпраўлены"
+    },
+    "examples": [
+      "Send a letter",
+      "I sent it",
+      "Have you sent?"
+    ],
+    "example_translations": [
+      "Адправі ліст",
+      "Я адправіў гэта",
+      "Ці адправіў ты?"
+    ]
+  },
+  {
+    "infinitive": "slink",
+    "past": "slunk",
+    "past_participle": "slunk",
+    "translation": "красціся",
+    "translations": {
+      "infinitive": "красціся",
+      "past": "краўся",
+      "past_participle": "пакраўся"
+    },
+    "examples": [
+      "Slink away",
+      "He slunk",
+      "Have you slunk?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "get up",
+    "past": "got up",
+    "past_participle": "got up",
+    "translation": "уставаць",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "уставаць",
+      "past": "устаў",
+      "past_participle": "устаўшы"
+    },
+    "examples": [
+      "Get up early",
+      "I got up at 7",
+      "Have you got up?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "dream",
+    "past": "dreamt",
+    "past_participle": "dreamt",
+    "translation": "сніць",
+    "translations": {
+      "infinitive": "сніць",
+      "past": "сніў",
+      "past_participle": "прысніўшыся"
+    },
+    "examples": [
+      "Dream big",
+      "I dreamt",
+      "Have you dreamt?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "show off",
+    "past": "showed off",
+    "past_participle": "shown off",
+    "translation": "хваліцца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "хваліцца",
+      "past": "хваліўся",
+      "past_participle": "пахваліўся"
+    },
+    "examples": [
+      "Show off skills",
+      "He showed off",
+      "Have you shown off?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "infinitive": "come across",
+    "past": "came across",
+    "past_participle": "come across",
+    "translation": "сустрэцца",
+    "type": "phrasal",
+    "translations": {
+      "infinitive": "сустрэцца",
+      "past": "сустрэўся",
+      "past_participle": "сустрэўшыся"
+    },
+    "examples": [
+      "Come across a friend",
+      "I came across",
+      "Have you come across?"
+    ],
+    "example_translations": [
+      "",
+      "",
+      ""
+    ]
+  }
+]
