@@ -2,7 +2,7 @@
 
 A modular dashboard for Waveshare e-paper displays, built for a Raspberry Pi Zero 2 W running DietPi. Renders date/time, weather, local WiFi-IoT sensors, crypto prices, mining stats, and a paginated English irregular verbs study section on a 3.7" 4-gray e-paper screen.
 
-Русская версия: [README.ru.md](README.ru.md)
+Беларуская версія: [README.be.md](README.be.md)
 
 ## Features
 
