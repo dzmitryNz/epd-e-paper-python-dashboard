@@ -57,9 +57,10 @@ Autostart on boot (`crontab -e` as root):
 
 ```
 @reboot sleep 30 && cd /path/to/epd-e-paper-python-dashboard && python3 epaper_dashboard.py >> /var/log/epaper.log 2>&1
+*/10 * * * * cd /path/to/epd-e-paper-python-dashboard && python3 epaper_dashboard.py >> /var/log/epaper.log 2>&1
 ```
 
-For periodic refresh add a normal cron entry (e.g. every 10 minutes).
+The first line draws the dashboard once after boot, the second refreshes it every 10 minutes (the script is one-shot: it renders, updates the display, and exits). On DietPi `/var/log` lives in RAM, so the log does not wear the SD card.
 
 ## Configuration format
 

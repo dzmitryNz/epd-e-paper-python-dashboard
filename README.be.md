@@ -64,9 +64,10 @@ python3 epaper_dashboard.py --dry-run  # толькі сабраць saved_displ
 
 ```
 @reboot sleep 30 && cd /шлях/да/epd-e-paper-python-dashboard && python3 epaper_dashboard.py >> /var/log/epaper.log 2>&1
+*/10 * * * * cd /шлях/да/epd-e-paper-python-dashboard && python3 epaper_dashboard.py >> /var/log/epaper.log 2>&1
 ```
 
-Для перыядычнага абнаўлення дадайце звычайны cron-запіс (напрыклад, кожныя 10 хвілін).
+Першы радок малюе дашборд адзін раз пасля загрузкі, другі абнаўляе яго кожныя 10 хвілін (скрыпт аднаразовы: адмалёўвае, абнаўляе экран і завяршаецца). На DietPi `/var/log` жыве ў RAM, таму лог не зношвае SD-карту.
 
 ## Фармат канфігурацыі
 
