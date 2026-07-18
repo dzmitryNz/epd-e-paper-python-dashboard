@@ -170,6 +170,15 @@ class DisplayRenderer:
         category = item_config.get('category') or self._guess_category(item_type)
         value, is_old = self._get_value(data, data_ages, item_type, category)
 
+        if value == 'N/A':
+            fallback = item_config.get('fallback')
+            if fallback:
+                value, is_old = self._get_value(data, data_ages,
+                                                fallback.get('type', item_type),
+                                                fallback.get('category', category))
+            if value == 'N/A' and item_config.get('hideIfMissing'):
+                return None, False
+
         if item_type in ('sunrise', 'sunset') and value != 'N/A':
             value = self._format_sun_time(value, item_config.get('format', '%H:%M'))
         elif category == 'kucoin' and value != 'N/A' and isinstance(value, (int, float)):
@@ -211,6 +220,8 @@ class DisplayRenderer:
                 font = self.fonts.get(item_config.get('font', 'font18'),
                                       next(iter(self.fonts.values())))
                 display_text, is_old = self._resolve_item_value(item_config, data, data_ages)
+                if display_text is None:
+                    continue
                 colour = self.get_colour(item_config.get('colour', 'BLACK'), is_old)
 
                 item_y = y_pos + item_config.get('offsetY', 0)

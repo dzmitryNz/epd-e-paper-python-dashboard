@@ -108,7 +108,7 @@
                 "afterY": 25,
                 "items": [
                     {"type": "text", "text": "Out, °C:", "font": "font18", "colour": "GRAY4"},
-                    {"type": "dsw1", "category": "sensors", "font": "font24", "colour": "GRAY4", "startX": 70, "offsetY": -4},
+                    {"type": "dsw1", "category": "sensors", "fallback": {"type": "temp", "category": "weather"}, "font": "font24", "colour": "GRAY4", "startX": 70, "offsetY": -4},
                     {"type": "feels_like", "category": "weather", "prefix": " Адчув. ", "font": "font18", "colour": "GRAY4", "startX": 120},
                     {"type": "temp", "category": "weather", "prefix": " - ", "font": "font18", "colour": "GRAY4"}
                 ]
@@ -158,12 +158,12 @@
                 "name": "mining",
                 "afterY": 25,
                 "items": [
-                    {"type": "blocks", "category": "solopool", "font": "font18", "colour": "GRAY4", "afterX": 6},
-                    {"type": "hashrate", "category": "solopool", "prefix": "FB ", "suffix": "H/s", "format": "hashrate", "font": "font18", "colour": "GRAY4", "afterX": 6},
-                    {"type": "luck", "category": "solopool", "suffix": " %", "font": "font18", "colour": "GRAY4", "afterX": 10},
-                    {"type": "workingmode", "category": "nano3stats", "map": {"0": "Lo", "1": "Mi", "2": "Hi"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
-                    {"type": "workingstatus", "category": "nano3stats", "map": {"0": "Init", "1": "Fine", "2": "Idle"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
-                    {"type": "power", "category": "nano3stats", "suffix": "W", "font": "font18", "colour": "GRAY4"}
+                    {"type": "blocks", "category": "solopool", "hideIfMissing": true, "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "hashrate", "category": "solopool", "hideIfMissing": true, "prefix": "FB ", "suffix": "H/s", "format": "hashrate", "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "luck", "category": "solopool", "hideIfMissing": true, "suffix": " %", "font": "font18", "colour": "GRAY4", "afterX": 10},
+                    {"type": "workingmode", "category": "nano3stats", "hideIfMissing": true, "map": {"0": "Lo", "1": "Mi", "2": "Hi"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "workingstatus", "category": "nano3stats", "hideIfMissing": true, "map": {"0": "Init", "1": "Fine", "2": "Idle"}, "font": "font18", "colour": "GRAY4", "afterX": 6},
+                    {"type": "power", "category": "nano3stats", "hideIfMissing": true, "suffix": "W", "font": "font18", "colour": "GRAY4"}
                 ]
             },
             {
@@ -172,7 +172,7 @@
                 "font": "font18",
                 "lineHeight": 25,
                 "colour": "GRAY4",
-                "secondaryColour": "GRAY3"
+                "secondaryColour": "GRAY4"
             }
         ]
     }

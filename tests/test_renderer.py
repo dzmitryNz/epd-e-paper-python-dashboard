@@ -114,6 +114,48 @@ class TestRendererWithoutHardware(unittest.TestCase):
         formatted = self.renderer._format_value('2', {'map': {'2': 'Hi'}})
         self.assertEqual(formatted, 'Hi')
 
+    def test_fallback_value_used_when_primary_missing(self):
+        item = {'type': 'dsw1', 'category': 'sensors', 'prefix': 'Out: ',
+                'fallback': {'type': 'temp', 'category': 'weather'}}
+        data = {'sensors': {}, 'weather': {'temp': 21.5}}
+        ages = {'sensors': {}, 'weather': {}}
+        text, is_old = self.renderer._resolve_item_value(item, data, ages)
+        self.assertEqual(text, 'Out: 21.5')
+
+    def test_no_fallback_when_primary_present(self):
+        item = {'type': 'dsw1', 'category': 'sensors',
+                'fallback': {'type': 'temp', 'category': 'weather'}}
+        data = {'sensors': {'dsw1': 12.5}, 'weather': {'temp': 21.5}}
+        ages = {'sensors': {}, 'weather': {}}
+        text, _ = self.renderer._resolve_item_value(item, data, ages)
+        self.assertEqual(text, '12.5')
+
+    def test_hide_if_missing_returns_none(self):
+        item = {'type': 'hashrate', 'category': 'solopool', 'hideIfMissing': True}
+        data = {'solopool': {}}
+        ages = {'solopool': {}}
+        text, _ = self.renderer._resolve_item_value(item, data, ages)
+        self.assertIsNone(text)
+
+    def test_hide_if_missing_shows_present_value(self):
+        item = {'type': 'power', 'category': 'nano3stats', 'suffix': 'W',
+                'hideIfMissing': True}
+        data = {'nano3stats': {'power': '95'}}
+        ages = {'nano3stats': {}}
+        text, _ = self.renderer._resolve_item_value(item, data, ages)
+        self.assertEqual(text, '95W')
+
+    def test_render_skips_hidden_items(self):
+        data, ages = make_data()
+        data['solopool'] = {}
+        data['nano3stats'] = {}
+        config = make_config()
+        for item in config['dashboard']['lines'][2]['items']:
+            item['hideIfMissing'] = True
+        renderer = DisplayRenderer(config)
+        image = renderer.render(data, ages)
+        self.assertEqual(image.mode, 'L')
+
     def test_gray_palette_without_hardware(self):
         self.assertEqual(self.renderer.get_colour('GRAY1'), 0xff)
         self.assertEqual(self.renderer.get_colour('GRAY4'), 0x00)
