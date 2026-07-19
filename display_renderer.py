@@ -199,11 +199,16 @@ class DisplayRenderer:
         for line_config in self.config['dashboard'].get('lines', []):
             if line_config.get('type') == 'verbs':
                 start_y = line_config.get('startY', y_pos)
-                area_height = self.image_height - start_y
+                available_height = self.image_height - start_y
+                max_height = line_config.get('maxHeight')
+                area_height = min(max_height, available_height) if max_height else available_height
                 self.last_verbs_area = (start_y, area_height)
                 if verbs:
                     self._draw_verbs(draw, line_config, verbs, verbs_page, start_y, area_height)
-                break  # verbs section fills the rest of the screen
+                y_pos = start_y + area_height + line_config.get('afterY', 5)
+                if y_pos > self.image_height - 20:
+                    break
+                continue
 
             line_start_y = line_config.get('startY', y_pos)
             if line_start_y >= 0:

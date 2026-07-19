@@ -8,7 +8,7 @@ A modular dashboard for Waveshare e-paper displays, built for a Raspberry Pi Zer
 
 - **Config-driven layout** — every line and item on the screen is described in `dashboard.config.json`, no code changes needed to rearrange the dashboard
 - **All service addresses, API keys, and display model parameters live in `.env`** — the config references them as `env.NAME`
-- **Data sources**: OpenWeatherMap, WiFi-IoT sensor boards (plain-text `key:value;` protocol), KuCoin tickers, Solopool mining stats, Nano3 miner JSONP dashboard
+- **Data sources**: OpenWeatherMap, WiFi-IoT sensor boards (plain-text `key:value;` protocol), KuCoin tickers, Solopool mining stats, Nano3 miner JSONP dashboard, Home Assistant REST API (garage automation status)
 - **Caching with staleness marking** — when a source is offline the last known value is shown (optionally in a lighter gray), fully missing data can be hidden or replaced with a fallback source
 - **Verbs section** — reads `verbs.json`, paginates it into the free screen area, and flips the page every 5 minutes with a partial redraw
 - **Testable without hardware** — the renderer works without the EPD driver; `--dry-run` renders the full dashboard into `saved_display_image.png`
@@ -34,6 +34,27 @@ cp .env.example .env
 nano .env   # fill in addresses and keys
 ```
 
+### Reaching Home Assistant
+
+The garage automation system (separate `garageManager` project) is not on the
+same network as the garage — its OrangePi bridges MQTT out via Tailscale to a
+Home Assistant instance on the home server. Two cases for this board:
+
+- **This board is on the same home LAN as the Home Assistant host** (the
+  common case, since the home server and this board are both at home): just
+  point `HA_URL` at the home server's LAN IP, e.g. `http://192.168.1.X:8123`.
+  No Tailscale needed on this board.
+- **Home Assistant is only reachable over Tailscale** from this board's
+  network: install Tailscale on this board too (`curl -fsSL
+  https://tailscale.com/install.sh | sh && tailscale up`), then use the
+  Tailscale hostname/IP (`100.x.x.x`) as `HA_URL`.
+
+Either way, generate a long-lived access token from the Home Assistant user
+profile page (Security tab → "Long-lived access tokens" → Create Token) and
+put it in `HA_TOKEN`. The `services.homeassistant.entities` map in
+`dashboard.config.json` lists which entity_ids to fetch — adjust it to match
+the actual entity_ids registered in your Home Assistant instance.
+
 ### `.env` variables
 
 | Variable | Description |
@@ -45,6 +66,7 @@ nano .env   # fill in addresses and keys
 | `KUCOIN_URL` | KuCoin all-tickers endpoint (public, no key needed) |
 | `SOLOPOOL_URL` | Solopool account API URL (wallet address is part of the URL) |
 | `NANO3STATS_URL`, `NANO3STATS_AUTH` | Nano3 miner dashboard endpoint and its `auth` cookie value |
+| `HA_URL`, `HA_TOKEN` | Home Assistant base URL (no trailing slash, no `/api`) and a long-lived access token (Home Assistant profile → Security → Long-lived access tokens) |
 
 ## Running
 
@@ -85,7 +107,7 @@ Any string value anywhere in the config may be `env.NAME` or `${NAME}` — it is
 | `fallback` | Alternative source when the value is missing: `{"type": "temp", "category": "weather"}` |
 | `hideIfMissing` | Render nothing instead of `N/A` when the value is missing |
 
-A line with `"type": "verbs"` fills the rest of the screen with the paginated verbs table (fields: `font`, `lineHeight`, `colour`, `secondaryColour`). The page advances every 5 minutes; progress is persisted in `verbs_state.json`.
+A line with `"type": "verbs"` fills the rest of the screen with the paginated verbs table (fields: `font`, `lineHeight`, `colour`, `secondaryColour`, and optional `maxHeight` to cap the block's height instead of filling the rest of the screen — useful when lines follow it). The page advances every 5 minutes; progress is persisted in `verbs_state.json`.
 
 Stale (cached) values are drawn in `display.oldDataColour`.
 

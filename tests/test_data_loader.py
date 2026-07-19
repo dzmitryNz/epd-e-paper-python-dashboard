@@ -30,6 +30,7 @@ class TestLoadAllData(unittest.TestCase):
             'fetch_all_sensor_data': {'dsw1': 12.5},
             'fetch_solopool_data': {'hashrate': 1e12, 'luck': 90, 'blocks': 1},
             'fetch_nano3stats_data': {'workingmode': '1', 'power': '100'},
+            'fetch_homeassistant_data': {'gate_door': 'closed'},
         }
         with mock.patch.multiple(
             data_loader,
@@ -40,8 +41,10 @@ class TestLoadAllData(unittest.TestCase):
         self.assertEqual(all_data['solopool']['hashrate'], 1e12)
         self.assertEqual(all_data['nano3stats']['workingmode'], '1')
         self.assertEqual(all_data['weather']['temp'], 20.0)
+        self.assertEqual(all_data['garage']['gate_door'], 'closed')
         self.assertIn('solopool', ages)
         self.assertIn('nano3stats', ages)
+        self.assertIn('garage', ages)
 
 
 if __name__ == '__main__':

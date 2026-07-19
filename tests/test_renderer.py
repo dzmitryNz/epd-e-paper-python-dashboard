@@ -162,6 +162,38 @@ class TestRendererWithoutHardware(unittest.TestCase):
         self.assertEqual(self.renderer.get_colour('BLACK'), 0x00)
         self.assertEqual(self.renderer.get_colour('WHITE'), 0xff)
 
+    def test_verbs_max_height_caps_area(self):
+        config = make_config()
+        config['dashboard']['lines'][-1]['maxHeight'] = 100
+        renderer = DisplayRenderer(config)
+        data, ages = make_data()
+        renderer.render(data, ages, verbs=VERBS, verbs_page=0)
+        _, height = renderer.last_verbs_area
+        self.assertEqual(height, 100)
+
+    def test_verbs_without_max_height_fills_rest_of_screen(self):
+        data, ages = make_data()
+        self.renderer.render(data, ages, verbs=VERBS, verbs_page=0)
+        start_y, height = self.renderer.last_verbs_area
+        self.assertEqual(start_y + height, 480)
+
+    def test_render_draws_line_after_verbs(self):
+        config = make_config()
+        config['dashboard']['lines'][-1]['maxHeight'] = 100
+        config['dashboard']['lines'].append({
+            'name': 'garage', 'afterY': 20, 'items': [
+                {'type': 'text', 'text': 'Garage', 'font': 'font18', 'colour': 'GRAY4'},
+            ],
+        })
+        renderer = DisplayRenderer(config)
+        data, ages = make_data()
+        image = renderer.render(data, ages, verbs=VERBS, verbs_page=0)
+        start_y, height = renderer.last_verbs_area
+        below_area = image.crop((0, start_y + height, image.width, image.height))
+        pixels = below_area.getdata()
+        self.assertTrue(any(p != 0xff for p in pixels),
+                         "expected garage line drawn below the capped verbs block")
+
 
 if __name__ == '__main__':
     unittest.main()

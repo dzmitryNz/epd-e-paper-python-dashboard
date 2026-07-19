@@ -82,6 +82,17 @@
             "authCookie": "env.NANO3STATS_AUTH",
             "responseType": "jsonp",
             "refreshInterval": 600000
+        },
+        "homeassistant": {
+            "url": "env.HA_URL",
+            "token": "env.HA_TOKEN",
+            "responseType": "ha_rest",
+            "refreshInterval": 600000,
+            "entities": {
+                "gate_door": "binary_sensor.garage_door",
+                "temp_outside": "sensor.garage_outside_temperature",
+                "fans_mode": "select.garage_fans_mode"
+            }
         }
     },
     "dashboard": {
@@ -169,10 +180,22 @@
             {
                 "name": "verbs",
                 "type": "verbs",
+                "maxHeight": 220,
+                "afterY": 8,
                 "font": "font18",
                 "lineHeight": 25,
                 "colour": "GRAY4",
                 "secondaryColour": "GRAY4"
+            },
+            {
+                "name": "garage",
+                "afterY": 25,
+                "items": [
+                    {"type": "text", "text": "Гараж:", "font": "font18", "colour": "GRAY4"},
+                    {"type": "gate_door", "category": "garage", "hideIfMissing": true, "map": {"open": "адчын.", "closed": "зачын."}, "font": "font18", "colour": "GRAY4", "startX": 65},
+                    {"type": "temp_outside", "category": "garage", "hideIfMissing": true, "prefix": " ", "suffix": " °C", "font": "font18", "colour": "GRAY4", "startX": 150},
+                    {"type": "fans_mode", "category": "garage", "hideIfMissing": true, "prefix": " ", "font": "font18", "colour": "GRAY4"}
+                ]
             }
         ]
     }

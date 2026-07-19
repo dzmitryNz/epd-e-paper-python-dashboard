@@ -7,6 +7,7 @@ from services.kucoin_service import fetch_kucoin_data
 from services.sensor_service import fetch_all_sensor_data
 from services.solopool_service import fetch_solopool_data
 from services.nano3stats_service import fetch_nano3stats_data
+from services.homeassistant_service import fetch_homeassistant_data
 from data_storage import load_data, is_valid_value, get_cached_value
 
 def merge_data_with_cache(current_data: Optional[Dict[str, Any]], 
@@ -45,6 +46,7 @@ DATA_SOURCES = {
     'sensors': 'fetch_all_sensor_data',
     'solopool': 'fetch_solopool_data',
     'nano3stats': 'fetch_nano3stats_data',
+    'garage': 'fetch_homeassistant_data',
 }
 
 def load_all_data(config: Dict[str, Any], use_cache: bool = True):
