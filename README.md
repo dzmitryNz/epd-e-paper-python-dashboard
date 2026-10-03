@@ -130,3 +130,15 @@ verbs.py                # verbs list, pagination, state
 services/               # one module per data source
 tests/                  # unittest suite
 ```
+
+
+## Improvement proposals
+
+- [ ] Add a `requirements.txt` (or `pyproject.toml`) and a GitHub Actions workflow that runs `pytest`.
+- [ ] Remove `epaper_dashboard_v1.py` (it has a bare `except:`) and the duplicate `scripts/icons/`.
+- [ ] Untrack `scripts/.persist/verbs_state.json` (`git rm --cached`) so it does not show as modified on the device.
+- [ ] Set timeouts and retries with backoff for all `requests.get` calls in `data_loader.py`.
+- [ ] Show an error screen when all data sources fail.
+- [ ] Add a systemd service/timer example instead of cron only.
+- [ ] Night mode: skip refreshes, and do a full refresh every N hours to avoid ghosting.
+- [ ] Price trend arrow or sparkline for crypto.
